@@ -71,6 +71,8 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 
 const IndexPage = () => (
   <Layout>
+    <div> aasdffgf</div>
+
     <div className={styles.textCenter}>
       <StaticImage
         src="../images/example.png"
