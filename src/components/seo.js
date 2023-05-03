@@ -50,6 +50,16 @@ const SEO = ({ title, description, lang, meta = [] }) => {
           name: "twitter:description",
           content: metaDescription,
         },
+        {
+          name: "twitter:image",
+          content:
+            "https://speechify.com/wp-content/uploads/2023/02/speechify-rm-social-share.jpg",
+        },
+
+        {
+          name: "og:image:type",
+          content: "image/jpeg",
+        },
 
         {
           property: "og:url",
@@ -95,14 +105,14 @@ const SEO = ({ title, description, lang, meta = [] }) => {
         //   // Specifies the date and time that an article was published on the page.
         // },
 
-        {
-          property: "telegram:title",
-          content: "Don't miss out on our exclusive sale - ends tomorrow",
-        },
-        {
-          property: "telegram:card",
-          content: "summary",
-        },
+        // {
+        //   property: "telegram:title",
+        //   content: "Don't miss out on our exclusive sale - ends tomorrow",
+        // },
+        // {
+        //   property: "telegram:card",
+        //   content: "summary",
+        // },
 
         ...meta,
       ]}
