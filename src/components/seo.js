@@ -50,8 +50,13 @@ const SEO = ({ title, description, lang, meta = [] }) => {
         },
         {
           property: "og:site_name",
-          content: "master--tiny-meringue",
+          content: "TESTING",
           // Specifies the name of the website or app that the page belongs to.
+        },
+
+        {
+          property: "og:updated_time",
+          content: "2023-03-15T15:45:52+00:00",
         },
         {
           property: "og:image",
@@ -98,12 +103,6 @@ const SEO = ({ title, description, lang, meta = [] }) => {
           content:
             "https://w.forfun.com/fetch/05/05eeb93a2e41734ecb6044146351f11e.jpeg?h=900&r=0.5",
         },
-
-        // {
-        //   property: "og:article:published_time",
-        //   content: "2023-05-01T00:00:00+00:00",
-        //   // Specifies the date and time that an article was published on the page.
-        // },
 
         // {
         //   property: "telegram:title",
