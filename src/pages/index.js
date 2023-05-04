@@ -24,16 +24,15 @@ const IndexPage = () => (
     <Seo title="The Top 20 Destinations to Visit in Europe" />
     <div> Testing</div>
     <div> Testing</div>
-    <div> Testing</div>
-    <div> Testing</div>
 
     <div className={styles.textCenter}>
       <StaticImage
         src="https://w.forfun.com/fetch/05/05eeb93a2e41734ecb6044146351f11e.jpeg?h=900&r=0.5"
         loading="eager"
-        width={64}
+        width={200}
+        height={200}
         quality={100}
-        formats={["auto", "webp", "avif", "jpg", "png"]}
+        formats={["webp"]}
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       />
