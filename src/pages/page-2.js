@@ -12,6 +12,8 @@ const SecondPage = () => (
   </Layout>
 )
 
-export const Head = () => <Seo title="Page two" />
+export const Head = () => (
+  <Seo title="The Top 20 Destinations to Visit in Europe" />
+)
 
 export default SecondPage

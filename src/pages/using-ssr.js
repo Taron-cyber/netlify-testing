@@ -32,7 +32,9 @@ const UsingSSR = ({ serverData }) => {
   )
 }
 
-export const Head = () => <Seo title="Using SSR" />
+export const Head = () => (
+  <Seo title="The Top 20 Destinations to Visit in Europe" />
+)
 
 export default UsingSSR
 
