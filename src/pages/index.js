@@ -19,10 +19,9 @@ const samplePageLinks = [
   { text: "Deferred Static Generation", url: "using-dsg" },
 ]
 
-const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
-
 const IndexPage = () => (
   <Layout>
+    <Seo title="The Top 20 Destinations to Visit in Europe" />
     <div> Testing</div>
     <div> Testing</div>
     <div> Testing</div>
@@ -53,15 +52,6 @@ const IndexPage = () => (
     </div>
     <ul className={styles.list}></ul>
   </Layout>
-)
-
-/**
- * Head export to define metadata for the page
- *
- * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
- */
-export const Head = () => (
-  <Seo title="The Top 20 Destinations to Visit in Europe" />
 )
 
 export default IndexPage
