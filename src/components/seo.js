@@ -70,7 +70,7 @@ const SEO = ({ title, description, lang, meta = [] }) => {
         {
           property: "og:image",
           content:
-            "https://master--tiny-meringue-2fe479.netlify.app/static/705185e5354a42a4570368356f29b7e5/dfaf6/example.avif",
+            "https://w.forfun.com/fetch/05/05eeb93a2e41734ecb6044146351f11e.jpeg?h=900&r=0.5",
           // Specifies the URL of the main image on the page.
         },
         {
@@ -84,10 +84,6 @@ const SEO = ({ title, description, lang, meta = [] }) => {
         {
           property: "og:image:alt",
           content: "text to speech",
-        },
-        {
-          property: "og:image:type",
-          content: "image/avif",
         },
         {
           property: "og:site_name",
