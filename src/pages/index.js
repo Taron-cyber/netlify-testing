@@ -36,7 +36,19 @@ const IndexPage = () => (
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       />
+      <br />
       <h1>SEO</h1>
+      <StaticImage
+        src="https://images.pexels.com/photos/2174723/pexels-photo-2174723.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        loading="eager"
+        width={200}
+        height={200}
+        quality={100}
+        formats={["webp"]}
+        alt=""
+        style={{ marginBottom: `var(--space-3)` }}
+      />
+      <h1>Visit here</h1>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
         {samplePageLinks.map((link, i) => (
