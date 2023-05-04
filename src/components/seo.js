@@ -16,7 +16,7 @@ const SEO = ({ title, description, lang, meta = [] }) => {
   return (
     <Helmet
       htmlAttributes={{
-        lang,
+        lang: "en",
       }}
       title={title ? `${title} | ${defaultTitle}` : defaultTitle}
       meta={[
