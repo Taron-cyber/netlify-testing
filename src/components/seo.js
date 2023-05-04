@@ -21,12 +21,22 @@ const SEO = ({ title, description, lang, meta = [] }) => {
       title={title ? `${title} | ${defaultTitle}` : defaultTitle}
       meta={[
         {
-          name: "description",
-          content: metaDescription,
+          property: "og:locale",
+          content: "en_US",
+          // Specifies the locale or language of the content on the page.
+        },
+        {
+          property: "og:type",
+          content: "website",
+          // Specifies the type of content on the page, such as a website, article, or video.
         },
         {
           property: "og:title",
           content: title || defaultTitle,
+        },
+        {
+          name: "description",
+          content: metaDescription,
         },
         {
           property: "og:description",
@@ -34,9 +44,42 @@ const SEO = ({ title, description, lang, meta = [] }) => {
           //Specifies a brief description of the content on the page.
         },
         {
-          property: "og:type",
-          content: "website",
-          // Specifies the type of content on the page, such as a website, article, or video.
+          property: "og:url",
+          content: "https://master--tiny-meringue-2fe479.netlify.app/",
+          // Specifies the canonical URL of the page.
+        },
+        {
+          property: "og:site_name",
+          content: "master--tiny-meringue",
+          // Specifies the name of the website or app that the page belongs to.
+        },
+        {
+          property: "og:image",
+          content:
+            "https://w.forfun.com/fetch/05/05eeb93a2e41734ecb6044146351f11e.jpeg?h=900&r=0.5",
+          // Specifies the URL of the main image on the page.
+        },
+        {
+          property: "og:image:secure_url",
+          content:
+            "https://w.forfun.com/fetch/05/05eeb93a2e41734ecb6044146351f11e.jpeg?h=900&r=0.5",
+          // Specifies the  Secure_URL of the main image on the page.
+        },
+        {
+          property: "og:image:width",
+          content: "1200",
+        },
+        {
+          property: "og:image:height",
+          content: "600",
+        },
+        {
+          property: "og:image:alt",
+          content: "text to speech",
+        },
+        {
+          name: "og:image:type",
+          content: "image/jpeg",
         },
         {
           name: "twitter:card",
@@ -53,48 +96,9 @@ const SEO = ({ title, description, lang, meta = [] }) => {
         {
           name: "twitter:image",
           content:
-            "https://speechify.com/wp-content/uploads/2023/02/speechify-rm-social-share.jpg",
-        },
-
-        {
-          name: "og:image:type",
-          content: "image/jpeg",
-        },
-
-        {
-          property: "og:url",
-          content: "https://master--tiny-meringue-2fe479.netlify.app/",
-          // Specifies the canonical URL of the page.
-        },
-
-        {
-          property: "og:image",
-          content:
             "https://w.forfun.com/fetch/05/05eeb93a2e41734ecb6044146351f11e.jpeg?h=900&r=0.5",
-          // Specifies the URL of the main image on the page.
         },
-        {
-          property: "og:image:width",
-          content: "1200",
-        },
-        {
-          property: "og:image:height",
-          content: "600",
-        },
-        {
-          property: "og:image:alt",
-          content: "text to speech",
-        },
-        {
-          property: "og:site_name",
-          content: "master--tiny-meringue",
-          // Specifies the name of the website or app that the page belongs to.
-        },
-        {
-          property: "og:locale",
-          content: "en_US",
-          // Specifies the locale or language of the content on the page.
-        },
+
         // {
         //   property: "og:article:published_time",
         //   content: "2023-05-01T00:00:00+00:00",
