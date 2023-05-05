@@ -104,14 +104,14 @@ const SEO = ({ title, description, lang, meta = [] }) => {
             "https://w.forfun.com/fetch/05/05eeb93a2e41734ecb6044146351f11e.jpeg?h=900&r=0.5",
         },
 
-        // {
-        //   property: "telegram:title",
-        //   content: "Don't miss out on our exclusive sale - ends tomorrow",
-        // },
-        // {
-        //   property: "telegram:card",
-        //   content: "summary",
-        // },
+        {
+          property: "telegram:title",
+          content: "Don't miss out on our exclusive sale - ends tomorrow",
+        },
+        {
+          property: "telegram:card",
+          content: "summary",
+        },
 
         ...meta,
       ]}
