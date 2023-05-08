@@ -17,29 +17,29 @@ exports.createPages = async ({ actions }) => {
   })
 }
 
-exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
-  if (stage === "develop" || stage === "build-javascript") {
-    actions.setWebpackConfig({
-      module: {
-        rules: [
-          {
-            test: /\.scss$/,
-            use: [
-              loaders.miniCssExtract(),
-              {
-                loader: "css-loader",
-                options: {
-                  importLoaders: 1,
-                  modules: {
-                    localIdentName: "[name]__[local]___[hash:base64:5]",
-                  },
-                },
-              },
-              "sass-loader",
-            ],
-          },
-        ],
-      },
-    })
-  }
-}
+// exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
+//   if (stage === "develop" || stage === "build-javascript") {
+//     actions.setWebpackConfig({
+//       module: {
+//         rules: [
+//           {
+//             test: /\.scss$/,
+//             use: [
+//               loaders.miniCssExtract(),
+//               {
+//                 loader: "css-loader",
+//                 options: {
+//                   importLoaders: 1,
+//                   modules: {
+//                     localIdentName: "[name]__[local]___[hash:base64:5]",
+//                   },
+//                 },
+//               },
+//               "sass-loader",
+//             ],
+//           },
+//         ],
+//       },
+//     })
+//   }
+// }
