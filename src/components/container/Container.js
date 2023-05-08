@@ -27,7 +27,9 @@ const Container = () => {
           quality={100}
           formats={["webp"]}
           style={{ marginBottom: `var(--space-3)` }}
-        ></StaticImage>
+        >
+          aaaaaaaaaaaaaaaaaaaaaa
+        </StaticImage>
       </BackgroundImage>
     </Layout>
   )
