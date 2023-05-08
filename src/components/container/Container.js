@@ -3,7 +3,7 @@ import Layout from "../layout"
 import { StaticImage } from "gatsby-plugin-image"
 import BackgroundImage from "gatsby-background-image"
 import Seo from "../seo"
-import "../container/ContainerStyle.scss"
+// import "../container/ContainerStyle.scss"
 
 const Container = () => {
   return (
