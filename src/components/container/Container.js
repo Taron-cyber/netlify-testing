@@ -13,7 +13,7 @@ const Container = () => {
         className="parent-container"
         Tag="section"
         fluid={{
-          src: "https://img.freepik.com/free-vector/abstract-blue-circle-black-background-technology_1142-12714.jpg?w=1380&t=st=1683549169~exp=1683549769~hmac=93c3cae77c1af9ed7c6c3c90da10bd9d8c9dc67e85b6694cf98ee244a87e079f",
+          src: "https://images.unsplash.com/photo-1668068810651-bfd8a7ee02ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
           sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 768px, 1024px",
         }}
         style={{ height: "100vh" }}
@@ -30,15 +30,16 @@ const Container = () => {
             alt="img"
           />
           <h2>Some Content </h2>
-
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
-          </p>
+          <div className="descrip">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+          </div>
         </div>
       </BackgroundImage>
     </Layout>

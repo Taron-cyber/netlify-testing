@@ -6,12 +6,11 @@
   .child-container {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     width: 700px;
     height: 700px;
     background-color: #fff;
     border-radius: 10px;
-    background-repeat: no-repeat;
-    background-position: contain;
 
     .img {
       width: 200px;
@@ -24,9 +23,11 @@
       margin-left: 10px;
     }
 
-    p {
-      padding: 10px;
-      text-align: center;
+    .descrip {
+      p {
+        padding: 10px;
+        text-align: center;
+      }
     }
   }
 }
