@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../layout"
 import Seo from "../seo"
 import Header from "../header/Header"
+import website_logo from "../../images/website-logo.png"
 
 import "../container/ContainerStyle.scss"
 
@@ -15,11 +16,11 @@ const Container = () => {
         <div className="inner-container">
           <StaticImage
             className="img"
-            src="https://w.forfun.com/fetch/05/05eeb93a2e41734ecb6044146351f11e.jpeg?h=900&r=0.5"
+            src={website_logo}
             loading="lazy"
             quality={100}
             formats={["webp"]}
-            alt="img"
+            alt="logo-large"
           />
           <h2>Some Content </h2>
           <div className="descrip">
