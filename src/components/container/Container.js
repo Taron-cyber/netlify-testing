@@ -9,7 +9,7 @@ const Container = () => {
   return (
     <Layout>
       <Seo title="The Top 20 Destinations to Visit in Europe" />
-      <BackgroundImage
+      {/* <BackgroundImage
         className="parent-container"
         Tag="section"
         fluid={{
@@ -19,7 +19,9 @@ const Container = () => {
         style={{ height: "100vh" }}
         alt="background img"
         loading="lazy"
-      >
+      > */}
+
+      <div className="parent-container">
         <div className="child-container">
           <StaticImage
             className="img"
@@ -42,7 +44,8 @@ const Container = () => {
             </p>
           </div>
         </div>
-      </BackgroundImage>
+      </div>
+      {/* </BackgroundImage> */}
     </Layout>
   )
 }
