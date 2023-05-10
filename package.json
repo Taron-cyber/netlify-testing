@@ -6,7 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "gatsby": "^5.9.0",
-    "gatsby-background-image": "git+https://github.com/Taron-cyber/gatsby-background-image",
+    "gatsby-background-image": "^1.6.0",
     "gatsby-plugin-image": "^3.9.0",
     "gatsby-plugin-manifest": "^5.9.0",
     "gatsby-plugin-react-helmet": "^6.9.0",
