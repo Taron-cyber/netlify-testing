@@ -2,6 +2,7 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../layout"
 import Seo from "../seo"
+import Header from "../header/Header"
 
 import "../container/ContainerStyle.scss"
 
@@ -10,6 +11,7 @@ const Container = () => {
     <Layout>
       <Seo title="The Top 20 Destinations to Visit in Europe" />
       <div className="outer-container">
+        <Header />
         <div className="inner-container">
           <StaticImage
             className="img"
