@@ -18,12 +18,13 @@ const Container = () => {
         }}
         style={{ height: "100vh" }}
         alt="background img"
+        loading="lazy"
       >
         <div className="child-container">
           <StaticImage
             className="img"
             src="https://w.forfun.com/fetch/05/05eeb93a2e41734ecb6044146351f11e.jpeg?h=900&r=0.5"
-            loading="eager"
+            loading="lazy"
             quality={100}
             formats={["webp"]}
             // style={{ marginBottom: `var(--space-3)` }}
