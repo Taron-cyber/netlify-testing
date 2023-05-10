@@ -20,13 +20,7 @@ const UsingSSR = ({ serverData }) => {
         alt="A random dog"
         src={serverData.message}
       />
-      <p>
-        To learn more, head over to our{" "}
-        <a href="https://www.gatsbyjs.com/docs/reference/rendering-options/server-side-rendering/">
-          documentation about Server Side Rendering
-        </a>
-        .
-      </p>
+      <p>To learn more, head over to our .</p>
       <Link to="/">Go back to the homepage</Link>
     </Layout>
   )

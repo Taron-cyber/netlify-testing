@@ -32,18 +32,14 @@ const UsingTypescript: React.FC<PageProps<DataProps>> = ({
       You're currently on the page <code>{location.pathname}</code> which was
       built on {data.site.buildTime}.
     </p>
-    <p>
-      To learn more, head over to our{" "}
-      <a href="https://www.gatsbyjs.com/docs/how-to/custom-configuration/typescript/">
-        documentation about TypeScript
-      </a>
-      .
-    </p>
+    <p>To learn more, head over to our.</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
-export const Head: HeadFC<DataProps> = () => <Seo title="Using TypeScript" description={Seo} lang='en' />
+export const Head: HeadFC<DataProps> = () => (
+  <Seo title="Using TypeScript" description={Seo} lang="en" />
+)
 
 export default UsingTypescript
 
