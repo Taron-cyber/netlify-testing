@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import Container from "../../components/container/Container"
 import plus from "../../images/plus.png"
 
@@ -24,7 +25,14 @@ const ConvenientSection = () => {
           </div>
           <div className="line"></div>
           <div className="plus-div">
-            <img src={plus} alt="plus-icon" />
+            <StaticImage
+              className="convenient-img"
+              src="../../images/plus.png"
+              formats={["webp"]}
+              quality={100}
+              loading="lazy"
+              alt="plus-icon"
+            />
             when an unknown printer took a galley of type and scrambled
           </div>
         </div>
@@ -39,7 +47,14 @@ const ConvenientSection = () => {
           </div>
           <div className="line"></div>
           <div className="plus-div">
-            <img src={plus} alt="plus-icon" />
+            <StaticImage
+              className="convenient-img"
+              src="../../images/plus.png"
+              formats={["webp"]}
+              quality={100}
+              loading="lazy"
+              alt="plus-icon"
+            />
             when an unknown printer took a galley of type and scrambled
           </div>
         </div>

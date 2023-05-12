@@ -1,12 +1,6 @@
 import React from "react"
-
 import Container from "../../components/container/Container"
-import arrow from "../../images/arrow.png"
-import group from "../../images/group.png"
-import timer from "../../images/timer.png"
-import expertize from "../../images/expertize.png"
-import communication from "../../images/Communication.png"
-
+import { StaticImage } from "gatsby-plugin-image"
 import "./styles/PrinciplesStyle.scss"
 
 const PrinciplesSection = () => {
@@ -20,26 +14,61 @@ const PrinciplesSection = () => {
           Our <br /> principles
         </div>
         <div className="principles-items">
-          <img src={arrow} alt="vectors" />
+          <StaticImage
+            className="principles-img"
+            src="../../images/arrow.png"
+            formats={["webp"]}
+            quality={100}
+            loading="lazy"
+            alt="vectors"
+          />
           Lorem Ipsum is simply dummy text of the
         </div>
         <div className="principles-items">
-          <img src={group} alt="vectors" />
+          <StaticImage
+            className="principles-img"
+            src="../../images/group.png"
+            formats={["webp"]}
+            quality={100}
+            loading="lazy"
+            alt="vectors"
+          />
           Lorem Ipsum is simply dummy text of the
         </div>
       </div>
       <div className="items-container two">
         <div className="principles-items">
-          <img src={timer} alt="vectors" />
+          <StaticImage
+            className="principles-img"
+            src="../../images/timer.png"
+            formats={["webp"]}
+            quality={100}
+            loading="lazy"
+            alt="vectors"
+          />
           Lorem Ipsum is simply dummy text of the
         </div>
         <div className="principles-items">
-          <img src={expertize} alt="vectors" />
+          <StaticImage
+            className="principles-img"
+            src="../../images/expertize.png"
+            formats={["webp"]}
+            quality={100}
+            loading="lazy"
+            alt="vectors"
+          />
           Lorem Ipsum is simply dummy text of the, Lorem Ipsum is simply dummy
           text of the, Lorem Ipsum is simply dummy text of the
         </div>
         <div className="principles-items">
-          <img src={communication} alt="vectors" />
+          <StaticImage
+            className="principles-img"
+            src="../../images/Communication.png"
+            formats={["webp"]}
+            quality={100}
+            loading="lazy"
+            alt="vectors"
+          />
           Lorem Ipsum is simply dummy text of the
         </div>
       </div>

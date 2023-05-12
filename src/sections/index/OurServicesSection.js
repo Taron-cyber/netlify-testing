@@ -1,11 +1,6 @@
 import React from "react"
 import Container from "../../components/container/Container"
-import people from "../../images/people.png"
-import circle from "../../images/circle.png"
-import conection from "../../images/conection.png"
-import cubs from "../../images/cubs.png"
-import phone from "../../images/phone.png"
-import ai from "../../images/ai.png"
+import { StaticImage } from "gatsby-plugin-image"
 
 import "./styles/OurServicesStyle.scss"
 
@@ -18,7 +13,14 @@ const OurServicesSection = () => {
       <div className="title">LOREM services</div>
       <div className="items-container one">
         <div className="services-items">
-          <img src={phone} alt="vectors" />
+          <StaticImage
+            className="our-services-img"
+            src="../../images/phone.png"
+            formats={["webp"]}
+            quality={100}
+            loading="lazy"
+            alt="vectors"
+          />
           <p className="card-title">Lorem Ipsum</p>
           <p>
             has been the industry's standard dummy text ever since the 1500s,
@@ -26,7 +28,14 @@ const OurServicesSection = () => {
           </p>
         </div>
         <div className="services-items">
-          <img src={circle} alt="vectors" />
+          <StaticImage
+            className="our-services-img"
+            src="../../images/circle.png"
+            formats={["webp"]}
+            quality={100}
+            loading="lazy"
+            alt="vectors"
+          />
           <p className="card-title">Lorem Ipsum</p>
           <p>
             has been the industry's standard dummy text ever since the 1500s,
@@ -34,7 +43,14 @@ const OurServicesSection = () => {
           </p>
         </div>
         <div className="services-items">
-          <img src={conection} alt="vectors" />
+          <StaticImage
+            className="our-services-img"
+            src="../../images/conection.png"
+            formats={["webp"]}
+            quality={100}
+            loading="lazy"
+            alt="vectors"
+          />
           <p className="card-title">Lorem Ipsum</p>
           <p>
             has been the industry's standard dummy text ever since the 1500s,
@@ -44,7 +60,14 @@ const OurServicesSection = () => {
       </div>
       <div className="items-container two">
         <div className="services-items">
-          <img src={ai} alt="vectors" />
+          <StaticImage
+            className="our-services-img"
+            src="../../images/ai.png"
+            formats={["webp"]}
+            quality={100}
+            loading="lazy"
+            alt="vectors"
+          />
           <p className="card-title">Lorem Ipsum</p>
           <p>
             has been the industry's standard dummy text ever since the 1500s,
@@ -52,7 +75,14 @@ const OurServicesSection = () => {
           </p>
         </div>
         <div className="services-items">
-          <img src={cubs} alt="vectors" />
+          <StaticImage
+            className="our-services-img"
+            src="../../images/cubs.png"
+            formats={["webp"]}
+            quality={100}
+            loading="lazy"
+            alt="vectors"
+          />
           <p className="card-title">Lorem Ipsum</p>
           <p>
             has been the industry's standard dummy text ever since the 1500s,
@@ -60,7 +90,14 @@ const OurServicesSection = () => {
           </p>
         </div>
         <div className="services-items">
-          <img src={people} alt="vectors" />
+          <StaticImage
+            className="our-services-img"
+            src="../../images/people.png"
+            formats={["webp"]}
+            quality={100}
+            loading="lazy"
+            alt="vectors"
+          />
           <p className="card-title">Lorem Ipsum</p>
           <p>
             has been the industry's standard dummy text ever since the 1500s,
