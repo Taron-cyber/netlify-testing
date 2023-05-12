@@ -1,0 +1,94 @@
+.convenient-section-container {
+  height: 613px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f9fc;
+
+  .title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+  }
+
+  .inner-container {
+    width: 1200px;
+    gap: 40px;
+
+    .card-container {
+      display: flex;
+      gap: 40px;
+    }
+
+    .card.one {
+      background-color: #cdffe8;
+    }
+
+    .card.two {
+      background-color: #838fff;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 580px;
+      height: 315px;
+      box-shadow: inset 0px 0px 13px -1px #d5e0f0;
+      border-radius: 16px;
+      padding: 20px 0 20px 20px;
+
+      .card-title {
+        font-family: "Inter";
+        font-weight: 700;
+        color: #002033;
+      }
+
+      p {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #002033;
+      }
+
+      .line {
+        height: 2px;
+        width: calc(100% - 20px);
+        background-color: #ffffff;
+      }
+
+      .button {
+        width: 125px;
+        margin-top: 16px;
+        a {
+          color: #ffffff;
+          background-color: #3f4b5d;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-weight: bold;
+          border-radius: 6px;
+          transition: background-color 0.3s ease;
+          &:hover {
+            background-color: #555;
+            color: black;
+          }
+        }
+      }
+
+      .plus-div {
+        width: 540px;
+        display: flex;
+        align-items: center;
+        gap: 13px;
+
+        img {
+          width: 24px;
+          height: 24px;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}
