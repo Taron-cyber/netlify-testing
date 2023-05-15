@@ -1,0 +1,73 @@
+.WhatDoWeOffer-container {
+  background-color: #f7f9fc;
+  height: 876px;
+
+  .inner-container {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .WhatDoWeOffer-title {
+    font-family: "Inter";
+    font-weight: 900;
+    font-size: 48px;
+    color: #002033;
+  }
+
+  .WhatDoWeOffer-card-container {
+    width: 1200px;
+    height: 578px;
+    display: flex;
+    gap: 40px;
+
+    .WhatDoWeOffer-card {
+      width: 374px;
+      height: 578px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 32px;
+      gap: 10px;
+      background-color: #ffffff;
+      border: 1px solid #bbc7dc;
+      box-shadow: 0px 0px 0px 3px #edf0f4;
+      border-radius: 16px;
+
+      .WhatDoWeOffer-icon {
+        width: 80px;
+        height: 72px;
+      }
+
+      .content-container {
+        width: 310px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        gap: 8px;
+
+        .WhatDoWeOffer-card-title {
+          font-family: "Inter";
+          font-weight: 700;
+          font-size: 24px;
+          color: #002033;
+        }
+
+        .WhatDoWeOffer-card-content {
+          font-family: "Inter";
+          font-weight: 400;
+          font-size: 16px;
+          color: #002033;
+          line-height: 24px;
+          ul {
+            margin: 24px 0 0 32px;
+
+            li {
+              padding-bottom: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

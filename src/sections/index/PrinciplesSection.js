@@ -16,7 +16,7 @@ const PrinciplesSection = () => {
         <div className="principles-items">
           <StaticImage
             className="principles-img"
-            src="../../images/arrow.png"
+            src="../../images/principles-one.png"
             formats={["webp"]}
             quality={100}
             loading="lazy"
@@ -27,7 +27,7 @@ const PrinciplesSection = () => {
         <div className="principles-items">
           <StaticImage
             className="principles-img"
-            src="../../images/group.png"
+            src="../../images/principles-two.png"
             formats={["webp"]}
             quality={100}
             loading="lazy"
@@ -40,7 +40,7 @@ const PrinciplesSection = () => {
         <div className="principles-items">
           <StaticImage
             className="principles-img"
-            src="../../images/timer.png"
+            src="../../images/principles-three.png"
             formats={["webp"]}
             quality={100}
             loading="lazy"
@@ -51,7 +51,7 @@ const PrinciplesSection = () => {
         <div className="principles-items">
           <StaticImage
             className="principles-img"
-            src="../../images/expertize.png"
+            src="../../images/principles-four.png"
             formats={["webp"]}
             quality={100}
             loading="lazy"
@@ -63,7 +63,7 @@ const PrinciplesSection = () => {
         <div className="principles-items">
           <StaticImage
             className="principles-img"
-            src="../../images/Communication.png"
+            src="../../images/principles-five.png"
             formats={["webp"]}
             quality={100}
             loading="lazy"

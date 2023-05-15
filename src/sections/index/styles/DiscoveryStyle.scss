@@ -1,0 +1,117 @@
+.discovery-section {
+  background-color: #f7f9fc;
+  height: 1125px;
+
+  .inner-container {
+    width: auto;
+    height: 863px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    .discovery-img-container {
+      width: 558px;
+      border-radius: 16px;
+    }
+
+    .discovery-content {
+      width: 602px;
+      height: 606px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .discovery-t {
+        color: #002033;
+        font-family: "Inter";
+        font-weight: 900;
+        font-size: 48px;
+        text-align: start;
+
+        h3 {
+          margin: 0;
+        }
+      }
+
+      .discovery-d {
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 16px;
+        color: #002033;
+      }
+
+      .discovery-btn {
+        width: 145px;
+        height: 56px;
+        background-color: #3f4b5d;
+        color: #ffffff;
+        border-radius: 6px;
+        padding: 14px 16px;
+        text-align: center;
+        cursor: pointer;
+      }
+    }
+
+    .discovery-stage {
+      width: 1200px;
+      height: 302px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 16px;
+      background-color: #a6b5cc;
+
+      .discovery-container {
+        width: 1136px;
+        height: 239px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+      }
+
+      .stage-title {
+        font-family: "Inter";
+        font-weight: 700;
+        font-size: 24px;
+        color: #002033;
+      }
+
+      .discovery-stage-items {
+        width: 1136px;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+
+        .items-div {
+          width: 208px;
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+        }
+
+        .p-numbers {
+          border-bottom: 6px solid #002033;
+        }
+        p {
+          font-family: "Inter";
+          font-weight: 700;
+          font-size: 20px;
+          color: #002033;
+        }
+
+        li {
+          font-weight: 400;
+          font-size: 16px;
+          color: #002033;
+          margin: 5px 0 0 20px;
+        }
+      }
+    }
+  }
+}

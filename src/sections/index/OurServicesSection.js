@@ -45,7 +45,7 @@ const OurServicesSection = () => {
         <div className="services-items">
           <StaticImage
             className="our-services-img"
-            src="../../images/conection.png"
+            src="../../images/Back.png"
             formats={["webp"]}
             quality={100}
             loading="lazy"
@@ -62,7 +62,7 @@ const OurServicesSection = () => {
         <div className="services-items">
           <StaticImage
             className="our-services-img"
-            src="../../images/ai.png"
+            src="../../images/Ai.png"
             formats={["webp"]}
             quality={100}
             loading="lazy"
@@ -77,7 +77,7 @@ const OurServicesSection = () => {
         <div className="services-items">
           <StaticImage
             className="our-services-img"
-            src="../../images/cubs.png"
+            src="../../images/phone.png"
             formats={["webp"]}
             quality={100}
             loading="lazy"
@@ -92,7 +92,7 @@ const OurServicesSection = () => {
         <div className="services-items">
           <StaticImage
             className="our-services-img"
-            src="../../images/people.png"
+            src="../../images/People.png"
             formats={["webp"]}
             quality={100}
             loading="lazy"

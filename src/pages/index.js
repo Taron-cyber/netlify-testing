@@ -8,6 +8,8 @@ import PrinciplesSection from "../sections/index/PrinciplesSection"
 import ConvenientSection from "../sections/index/ConvenientSection"
 import OurServicesSection from "../sections/index/OurServicesSection"
 import TechnologyExpertsSection from "../sections/index/TechnologyExpertsSection"
+import DiscoverySection from "../sections/index/DiscoverySection"
+import WhatDoWeOfferSection from "../sections/index/WhatDoWeOfferSection"
 
 import "../sections/index/styles/main.scss"
 // import * as styles from "../components/index.module.css"
@@ -34,6 +36,8 @@ const IndexPage = () => {
       <ConvenientSection />
       <OurServicesSection />
       <TechnologyExpertsSection />
+      <DiscoverySection />
+      <WhatDoWeOfferSection />
     </Layout>
   )
 }
