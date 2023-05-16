@@ -20,9 +20,9 @@ const ConvenientSection = () => {
             has been the industry's standard dummy text ever since the 1500s,
             when an unknown printer took a galley of type and scrambled
           </p>
-          <div className="button">
+          <button className="button">
             <Link to="/contact">Let's Talk</Link>
-          </div>
+          </button>
           <div className="line"></div>
           <div className="plus-div">
             <StaticImage
@@ -42,9 +42,9 @@ const ConvenientSection = () => {
             has been the industry's standard dummy text ever since the 1500s,
             when an unknown printer took a galley of type and scrambled
           </p>
-          <div className="button">
+          <button className="button">
             <Link to="/contact">Let's Talk</Link>
-          </div>
+          </button>
           <div className="line"></div>
           <div className="plus-div">
             <StaticImage

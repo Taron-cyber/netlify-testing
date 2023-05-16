@@ -10,6 +10,10 @@ import OurServicesSection from "../sections/index/OurServicesSection"
 import TechnologyExpertsSection from "../sections/index/TechnologyExpertsSection"
 import DiscoverySection from "../sections/index/DiscoverySection"
 import WhatDoWeOfferSection from "../sections/index/WhatDoWeOfferSection"
+import LosAngelesSection from "../sections/index/LosAngelesSection"
+import OurCaseStudiesSection from "../sections/index/OurCaseStudiesSection"
+import ReviewsSection from "../sections/index/ReviewsSection"
+import SubscribeSection from "../sections/index/SubscribeSection"
 
 import "../sections/index/styles/main.scss"
 // import * as styles from "../components/index.module.css"
@@ -38,6 +42,10 @@ const IndexPage = () => {
       <TechnologyExpertsSection />
       <DiscoverySection />
       <WhatDoWeOfferSection />
+      <LosAngelesSection />
+      <OurCaseStudiesSection />
+      <ReviewsSection />
+      <SubscribeSection />
     </Layout>
   )
 }

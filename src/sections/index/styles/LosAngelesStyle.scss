@@ -1,0 +1,53 @@
+.los-angeles-section {
+  height: 666px;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+
+  .inner-container {
+    position: relative;
+    flex-direction: row;
+    width: 1200px;
+    align-items: center;
+
+    .content-container {
+      position: absolute;
+      // right: 0;
+      width: 697px;
+      height: 194px;
+      gap: 40px;
+      display: flex;
+      flex-direction: column;
+
+      .title {
+        font-family: "Inter";
+        font-weight: 900;
+        font-size: 48px;
+        color: #002033;
+        height: 70px;
+        span {
+          width: 308px;
+          background-color: #fff176;
+          padding: 6px;
+        }
+      }
+      p {
+        width: 602px;
+        height: 96px;
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #002033;
+      }
+    }
+
+    .map-img {
+      position: absolute;
+      left: 430px;
+      bottom: -35px;
+      height: 498px;
+      width: 761px;
+    }
+  }
+}

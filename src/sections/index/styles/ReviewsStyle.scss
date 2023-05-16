@@ -1,0 +1,25 @@
+.reviews-section {
+  background: url("../../../images/rev-bg.png") #f7f9fc;
+  background-position: unset;
+
+  .inner-container {
+    height: 550px;
+
+    .reviews-title {
+      font-family: "Inter";
+      font-weight: 900;
+      font-size: 48px;
+      color: #002033;
+    }
+
+    .rev-img {
+      width: 1200px;
+      height: 406px;
+    }
+
+    .rev-circle-img {
+      width: 76px;
+      height: 16px;
+    }
+  }
+}

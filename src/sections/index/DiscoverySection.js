@@ -22,10 +22,8 @@ const DiscoverySection = () => {
       </div>
       <div className="discovery-content">
         <div className="discovery-t">
-          <h3>
-            Discovery classical Latin literature. This book is a treatise on the
-            theory
-          </h3>
+          Discovery classical Latin literature. This book is a treatise on the
+          theory
         </div>
         <div className="discovery-d">
           <p>
@@ -45,7 +43,7 @@ const DiscoverySection = () => {
             Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero.
           </p>
         </div>
-        <div className="discovery-btn">Get a quote</div>
+        <button className="discovery-btn">Get a quote</button>
       </div>
       <div className="discovery-stage">
         <div className="discovery-container">

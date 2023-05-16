@@ -33,9 +33,9 @@ const Header = () => {
             <Link to="/contacts">Contacts</Link>
           </li>
         </ul>
-        <div className="button">
+        <button className="button">
           <Link to="/contact">Let's Talk</Link>
-        </div>
+        </button>
       </nav>
     </header>
   )
