@@ -1,8 +1,14 @@
-.subscribe-container {
+.subscribe-section-container {
   background: url("../../../images/rev-bg.png") #f7f9fc;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 312px;
+
   .inner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     .subscribe-container {
       display: flex;
       width: 1200px;

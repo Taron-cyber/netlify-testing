@@ -6,7 +6,7 @@ import "./styles/SubscribeStyle.scss"
 const SubscribeSection = () => {
   return (
     <Container
-      outerClassName="subscribe-container"
+      outerClassName="subscribe-section-container"
       innerClassName="inner-container"
     >
       <div className="subscribe-container">

@@ -13,9 +13,73 @@
       color: #002033;
     }
 
-    .rev-img {
+    .reviews-card-container {
       width: 1200px;
       height: 406px;
+      display: flex;
+      justify-content: space-between;
+
+      .reviews-card {
+        width: 374px;
+        height: 406px;
+        background: #ffffff;
+        border: 1px solid #bbc7dc;
+        box-shadow: 0px 0px 0px 3px #edf0f4;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+
+        .card-title {
+          font-family: "Inter";
+          font-weight: 700;
+          font-size: 20px;
+          color: #002033;
+        }
+
+        .card-d {
+          font-family: "Inter";
+          font-weight: 400;
+          font-size: 16px;
+          text-align: start;
+          color: #002033;
+        }
+
+        .card-avatar-container {
+          width: 309px;
+          height: 50px;
+          align-items: center;
+          justify-content: space-between;
+          display: flex;
+
+          .card-avatar-img {
+            width: 40px;
+            height: 40px;
+          }
+
+          .name {
+            flex-wrap: wrap;
+            width: 258px;
+            font-family: "Inter";
+            font-weight: 400;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            color: #002033;
+          }
+
+          .role {
+            width: 258px;
+            font-family: "Inter";
+            font-weight: 400;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            color: #5d6873;
+          }
+        }
+      }
     }
 
     .rev-circle-img {

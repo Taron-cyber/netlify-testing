@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Header from "../components/header/Header"
-import Container from "../components/container/Container"
+import CoverSection from "../components/cover-section/CoverSection"
 import PrinciplesSection from "../sections/index/PrinciplesSection"
 import ConvenientSection from "../sections/index/ConvenientSection"
 import OurServicesSection from "../sections/index/OurServicesSection"
@@ -14,6 +14,8 @@ import LosAngelesSection from "../sections/index/LosAngelesSection"
 import OurCaseStudiesSection from "../sections/index/OurCaseStudiesSection"
 import ReviewsSection from "../sections/index/ReviewsSection"
 import SubscribeSection from "../sections/index/SubscribeSection"
+import LetsGetStartedSection from "../sections/index/LetsGetStartedSection"
+import Footer from "../components/footer/Footer"
 
 import "../sections/index/styles/main.scss"
 // import * as styles from "../components/index.module.css"
@@ -46,22 +48,9 @@ const IndexPage = () => {
       <OurCaseStudiesSection />
       <ReviewsSection />
       <SubscribeSection />
+      <LetsGetStartedSection />
+      <Footer />
     </Layout>
   )
 }
 export default IndexPage
-
-const CoverSection = () => (
-  <Container outerClassName="top-section">
-    <h1>Lorem Ipsum is simply dummy text of the printing and typesetting.</h1>
-    <div className="descrip">
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy.
-      </p>
-    </div>
-    <button className="button">
-      <Link to="/contact">Let’s chat</Link>
-    </button>
-  </Container>
-)
