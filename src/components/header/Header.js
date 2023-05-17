@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import website_logo from "../../images/website-logo.png"
+import { StaticImage } from "gatsby-plugin-image"
 
 import "./Headerstyle.scss"
 
@@ -9,7 +9,14 @@ const Header = () => {
     <header className="header">
       <div className="logo">
         <Link to="/">
-          <img className="web_logo" src={website_logo} alt="logo" />
+          <StaticImage
+            className="web_logo"
+            src="../../images/website-logo.png"
+            formats={["webp"]}
+            quality={100}
+            loading="lazy"
+            alt="header-logo"
+          />
         </Link>
       </div>
       <nav className="menu">
