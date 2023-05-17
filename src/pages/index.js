@@ -60,8 +60,8 @@ const CoverSection = () => (
         industry. Lorem Ipsum has been the industry's standard dummy.
       </p>
     </div>
-    <div className="button">
-      <Link to="/contact">Let's Talk</Link>
-    </div>
+    <button className="button">
+      <Link to="/contact">Let’s chat</Link>
+    </button>
   </Container>
 )

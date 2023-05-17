@@ -59,21 +59,24 @@
         background-color: #ffffff;
       }
 
-      .button {
-        width: 125px;
+      .convenient-section-button {
+        width: 108px;
+        height: 52px;
         margin-top: 16px;
+        background-color: #3f4b5d;
+        border-radius: 6px;
+        padding: 12px 16px;
+        transition: background-color 0.3s ease;
+        &:hover {
+          background-color: #555;
+          color: black;
+        }
         a {
           color: #ffffff;
-          background-color: #3f4b5d;
-          padding: 14px 16px;
           text-decoration: none;
-          font-weight: bold;
-          border-radius: 6px;
-          transition: background-color 0.3s ease;
-          &:hover {
-            background-color: #555;
-            color: black;
-          }
+          font-family: "Inter";
+          font-weight: 700;
+          font-size: 16px;
         }
       }
 

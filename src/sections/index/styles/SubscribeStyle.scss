@@ -1,5 +1,7 @@
 .subscribe-container {
   background: url("../../../images/rev-bg.png") #f7f9fc;
+  background-repeat: no-repeat;
+  background-size: cover;
   .inner-container {
     .subscribe-container {
       display: flex;

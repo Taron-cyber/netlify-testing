@@ -1,6 +1,7 @@
 .reviews-section {
   background: url("../../../images/rev-bg.png") #f7f9fc;
-  background-position: unset;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   .inner-container {
     height: 550px;
