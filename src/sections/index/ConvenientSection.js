@@ -21,7 +21,9 @@ const ConvenientSection = () => {
             when an unknown printer took a galley of type and scrambled
           </p>
           <button className="convenient-section-button">
-            <Link to="/contact">Let’s chat</Link>
+            <Link to="/contact" aria-label="contact">
+              Let’s chat
+            </Link>
           </button>
           <div className="line"></div>
           <div className="plus-div">
@@ -43,7 +45,9 @@ const ConvenientSection = () => {
             when an unknown printer took a galley of type and scrambled
           </p>
           <button className="convenient-section-button">
-            <Link to="/contact">Let’s chat</Link>
+            <Link to="/contact" aria-label="contact">
+              Let’s chat
+            </Link>
           </button>
           <div className="line"></div>
           <div className="plus-div">

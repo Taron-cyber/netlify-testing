@@ -21,7 +21,9 @@ const UsingSSR = ({ serverData }) => {
         src={serverData.message}
       />
       <p>To learn more, head over to our .</p>
-      <Link to="/">Go back to the homepage</Link>
+      <Link to="/" ria-label="homepage">
+        Go back to the homepage
+      </Link>
     </Layout>
   )
 }
