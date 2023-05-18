@@ -35,9 +35,7 @@ const SecondPage = () => (
       style={{ marginBottom: `var(--space-3)` }}
     />
     <br />
-    <Link to="/" aria-label="homepage">
-      Go back to the homepage
-    </Link>
+    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 

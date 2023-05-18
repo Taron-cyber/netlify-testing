@@ -11,9 +11,7 @@ const UsingDSG = () => (
     </h1>
     <p>This page is not created until requested by a user.</p>
     <p>To learn more, head over to our .</p>
-    <Link to="/" aria-label="homepage">
-      Go back to the homepage
-    </Link>
+    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
