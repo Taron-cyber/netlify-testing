@@ -54,7 +54,12 @@ const LetsGetStartedSection = () => {
             Send request
           </button>
           <div className="checkbox-container">
-            <input type="checkbox" id="checkbox" name="checkbox" />
+            <input
+              type="checkbox"
+              id="checkbox"
+              name="checkbox"
+              aria-label="checkbox"
+            />
             <label>Subscribe to our newsletters</label>
           </div>
         </div>
