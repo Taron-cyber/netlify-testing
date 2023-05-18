@@ -12,6 +12,7 @@ const Header = ({ siteTitle }) => (
   >
     <Link
       to="/"
+      aria-label="page"
       style={{
         fontSize: `var(--font-sm)`,
         textDecoration: `none`,

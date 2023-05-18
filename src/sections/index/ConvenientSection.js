@@ -32,6 +32,7 @@ const ConvenientSection = () => {
               quality={100}
               loading="lazy"
               alt="plus-icon"
+              style={{ objectFit: "contain" }}
             />
             when an unknown printer took a galley of type and scrambled
           </div>
@@ -54,6 +55,7 @@ const ConvenientSection = () => {
               quality={100}
               loading="lazy"
               alt="plus-icon"
+              style={{ objectFit: "contain" }}
             />
             when an unknown printer took a galley of type and scrambled
           </div>

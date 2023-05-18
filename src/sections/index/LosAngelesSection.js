@@ -28,6 +28,7 @@ const LosAngelesSection = () => {
           quality={100}
           loading="lazy"
           alt="vectors"
+          style={{ objectFit: "contain" }}
         />
       </div>
     </Container>

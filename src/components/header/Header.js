@@ -16,6 +16,7 @@ const Header = () => {
             quality={100}
             loading="lazy"
             alt="header-logo"
+            style={{ objectFit: "contain" }}
           />
         </Link>
       </div>

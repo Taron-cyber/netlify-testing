@@ -20,7 +20,8 @@ const PrinciplesSection = () => {
             formats={["webp"]}
             quality={100}
             loading="lazy"
-            alt="vectors"
+            alt="number"
+            style={{ objectFit: "contain" }}
           />
           Lorem Ipsum is simply dummy text of the
         </div>
@@ -31,7 +32,8 @@ const PrinciplesSection = () => {
             formats={["webp"]}
             quality={100}
             loading="lazy"
-            alt="vectors"
+            alt="number"
+            style={{ objectFit: "contain" }}
           />
           Lorem Ipsum is simply dummy text of the
         </div>
@@ -44,7 +46,8 @@ const PrinciplesSection = () => {
             formats={["webp"]}
             quality={100}
             loading="lazy"
-            alt="vectors"
+            alt="number"
+            style={{ objectFit: "contain" }}
           />
           Lorem Ipsum is simply dummy text of the
         </div>
@@ -55,7 +58,8 @@ const PrinciplesSection = () => {
             formats={["webp"]}
             quality={100}
             loading="lazy"
-            alt="vectors"
+            alt="number"
+            style={{ objectFit: "contain" }}
           />
           Lorem Ipsum is simply dummy text of the, Lorem Ipsum is simply dummy
           text of the, Lorem Ipsum is simply dummy text of the
@@ -67,7 +71,8 @@ const PrinciplesSection = () => {
             formats={["webp"]}
             quality={100}
             loading="lazy"
-            alt="vectors"
+            alt="number"
+            style={{ objectFit: "contain" }}
           />
           Lorem Ipsum is simply dummy text of the
         </div>

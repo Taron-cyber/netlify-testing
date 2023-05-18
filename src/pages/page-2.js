@@ -19,7 +19,7 @@ const SecondPage = () => (
       height={400}
       quality={100}
       formats={["webp"]}
-      alt=""
+      alt="aaaaa"
       style={{ marginBottom: `var(--space-3)` }}
     />
     <br />
@@ -31,7 +31,7 @@ const SecondPage = () => (
       height={400}
       quality={100}
       formats={["webp"]}
-      alt=""
+      alt="aaaa"
       style={{ marginBottom: `var(--space-3)` }}
     />
     <br />

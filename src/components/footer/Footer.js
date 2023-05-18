@@ -20,6 +20,7 @@ const Footer = () => {
               quality={100}
               loading="lazy"
               alt="footer-logo"
+              style={{ objectFit: "contain" }}
             />
           </div>
           <div className="footer-items">
@@ -65,6 +66,7 @@ const Footer = () => {
             quality={100}
             loading="lazy"
             alt="behance-logo"
+            style={{ objectFit: "contain" }}
           />
           <StaticImage
             className="social-media-img"
@@ -73,6 +75,7 @@ const Footer = () => {
             quality={100}
             loading="lazy"
             alt="instagram-logo"
+            style={{ objectFit: "contain" }}
           />
 
           <StaticImage
@@ -82,6 +85,7 @@ const Footer = () => {
             quality={100}
             loading="lazy"
             alt="twitter-logo"
+            style={{ objectFit: "contain" }}
           />
 
           <StaticImage
@@ -91,6 +95,7 @@ const Footer = () => {
             quality={100}
             loading="lazy"
             alt="facebook-logo"
+            style={{ objectFit: "contain" }}
           />
         </div>
       </footer>

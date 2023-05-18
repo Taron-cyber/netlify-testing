@@ -39,6 +39,7 @@ const OurCaseStudiesSection = () => {
               quality={100}
               loading="lazy"
               alt="discovery-img"
+              style={{ objectFit: "contain" }}
             />
           </button>
         </div>
@@ -50,6 +51,7 @@ const OurCaseStudiesSection = () => {
             quality={100}
             loading="lazy"
             alt="discovery-img"
+            style={{ objectFit: "contain" }}
           />
         </div>
       </div>
@@ -82,6 +84,7 @@ const OurCaseStudiesSection = () => {
               quality={100}
               loading="lazy"
               alt="discovery-img"
+              style={{ objectFit: "contain" }}
             />
           </button>
         </div>
@@ -93,6 +96,7 @@ const OurCaseStudiesSection = () => {
             quality={100}
             loading="lazy"
             alt="discovery-img"
+            style={{ objectFit: "contain" }}
           />
         </div>
       </div>
