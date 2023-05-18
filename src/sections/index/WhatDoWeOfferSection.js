@@ -10,9 +10,7 @@ const WhatDoWeOfferSection = () => {
       outerClassName="WhatDoWeOffer-container"
       innerClassName="inner-container"
     >
-      <div className="WhatDoWeOffer-title">
-        <h2>What Lorem Lorisoo offer</h2>
-      </div>
+      <div className="WhatDoWeOffer-title">What Lorem Lorisoo offer</div>
 
       <div className="WhatDoWeOffer-card-container">
         <div className="WhatDoWeOffer-card">

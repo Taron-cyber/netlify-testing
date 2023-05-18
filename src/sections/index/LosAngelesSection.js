@@ -12,7 +12,7 @@ const LosAngelesSection = () => {
     >
       <div className="content-container">
         <div className="title">
-          Lorem Lorisonio in <span>Los Angeles</span>
+          Lorem Asia in <span>Los Angeles</span>
         </div>
         <p>
           No matter where you are in North America, Europe, or Asia, our teams

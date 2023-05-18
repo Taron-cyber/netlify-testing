@@ -20,13 +20,14 @@
       flex-direction: column;
 
       .title {
-        font-family: "Inter";
+        width: 695px;
+        font-family: "Inter Black";
         font-weight: 900;
         font-size: 48px;
         color: #002033;
         height: 70px;
         span {
-          width: 308px;
+          width: 328px;
           background-color: #fff176;
           padding: 6px;
         }
@@ -34,7 +35,7 @@
       p {
         width: 602px;
         height: 96px;
-        font-family: "Inter";
+        font-family: "Inter Regular";
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;

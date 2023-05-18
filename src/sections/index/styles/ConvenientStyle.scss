@@ -6,10 +6,11 @@
   background-color: #f7f9fc;
 
   .title {
-    font-family: "Inter";
+    font-family: "Inter Black";
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
+    color: #002033;
   }
 
   .inner-container {
@@ -40,13 +41,14 @@
       padding: 20px 0 20px 20px;
 
       .card-title {
-        font-family: "Inter";
+        font-family: "Inter Bold";
         font-weight: 700;
         color: #002033;
+        font-size: 24px;
       }
 
       p {
-        font-family: "Inter";
+        font-family: "Inter Regular";
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -60,7 +62,7 @@
       }
 
       .convenient-section-button {
-        width: 108px;
+        width: 115px;
         height: 52px;
         margin-top: 16px;
         background-color: #3f4b5d;
@@ -74,7 +76,7 @@
         a {
           color: #ffffff;
           text-decoration: none;
-          font-family: "Inter";
+          font-family: "Inter Bold";
           font-weight: 700;
           font-size: 16px;
         }
