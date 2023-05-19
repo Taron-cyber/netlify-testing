@@ -41,6 +41,10 @@
             color: #002033;
           }
           ul {
+            gap: 12px;
+            display: flex;
+            flex-direction: column;
+
             li {
               display: flex;
               align-items: center;
