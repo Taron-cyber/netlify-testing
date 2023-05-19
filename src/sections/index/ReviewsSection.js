@@ -30,7 +30,6 @@ const ReviewsSection = () => {
               quality={100}
               loading="lazy"
               alt="avatar-img"
-              style={{ objectFit: "contain" }}
             />
 
             <div className="name">
@@ -57,7 +56,6 @@ const ReviewsSection = () => {
               quality={100}
               loading="lazy"
               alt="avatar-img"
-              style={{ objectFit: "contain" }}
             />
 
             <div className="name">
@@ -84,7 +82,6 @@ const ReviewsSection = () => {
               quality={100}
               loading="lazy"
               alt="avatar-img"
-              style={{ objectFit: "contain" }}
             />
 
             <div className="name">
@@ -102,7 +99,6 @@ const ReviewsSection = () => {
         quality={100}
         loading="lazy"
         alt="slider-img"
-        style={{ objectFit: "contain" }}
       />
     </Container>
   )

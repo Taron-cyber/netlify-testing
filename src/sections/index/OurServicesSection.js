@@ -20,7 +20,6 @@ const OurServicesSection = () => {
             quality={100}
             loading="lazy"
             alt="vectors"
-            style={{ objectFit: "contain" }}
           />
           <p className="card-title">Lorem Ipsum</p>
           <p>
@@ -36,7 +35,6 @@ const OurServicesSection = () => {
             quality={100}
             loading="lazy"
             alt="vectors"
-            style={{ objectFit: "contain" }}
           />
           <p className="card-title">Lorem Ipsum</p>
           <p>
@@ -52,7 +50,6 @@ const OurServicesSection = () => {
             quality={100}
             loading="lazy"
             alt="vectors"
-            style={{ objectFit: "contain" }}
           />
           <p className="card-title">Lorem Ipsum</p>
           <p>
@@ -70,7 +67,6 @@ const OurServicesSection = () => {
             quality={100}
             loading="lazy"
             alt="vectors"
-            style={{ objectFit: "contain" }}
           />
           <p className="card-title">Lorem Ipsum</p>
           <p>
@@ -86,7 +82,6 @@ const OurServicesSection = () => {
             quality={100}
             loading="lazy"
             alt="vectors"
-            style={{ objectFit: "contain" }}
           />
           <p className="card-title">Lorem Ipsum</p>
           <p>
@@ -102,7 +97,6 @@ const OurServicesSection = () => {
             quality={100}
             loading="lazy"
             alt="vectors"
-            style={{ objectFit: "contain" }}
           />
           <p className="card-title">Lorem Ipsum</p>
           <p>

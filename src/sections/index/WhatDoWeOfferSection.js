@@ -21,7 +21,6 @@ const WhatDoWeOfferSection = () => {
             quality={100}
             loading="lazy"
             alt="vectors"
-            style={{ objectFit: "contain" }}
           />
           <div className="content-container">
             <div className="WhatDoWeOffer-card-title">Transparent billing</div>
@@ -42,7 +41,6 @@ const WhatDoWeOfferSection = () => {
             quality={100}
             loading="lazy"
             alt="vectors"
-            style={{ objectFit: "contain" }}
           />
           <div className="content-container">
             <div className="WhatDoWeOffer-card-title">Clean communication</div>
@@ -69,7 +67,6 @@ const WhatDoWeOfferSection = () => {
             quality={100}
             loading="lazy"
             alt="vectors"
-            style={{ objectFit: "contain" }}
           />
           <div className="content-container">
             <div className="WhatDoWeOffer-card-title">

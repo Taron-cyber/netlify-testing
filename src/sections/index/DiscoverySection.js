@@ -18,7 +18,6 @@ const DiscoverySection = () => {
           quality={100}
           loading="lazy"
           alt="discovery-img"
-          style={{ objectFit: "contain" }}
         />
       </div>
       <div className="discovery-content">
