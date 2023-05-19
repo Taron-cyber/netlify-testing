@@ -13,7 +13,7 @@ const DiscoverySection = () => {
       <div className="discovery-img-container">
         <StaticImage
           className="discovery-img"
-          src="../../images/discovery-stage-img.png"
+          src="../../images/discovery-stage-img.jpg"
           formats={["webp"]}
           quality={100}
           loading="lazy"

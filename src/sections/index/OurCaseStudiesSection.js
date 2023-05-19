@@ -91,7 +91,7 @@ const OurCaseStudiesSection = () => {
         <div className="right-side-container">
           <StaticImage
             className="regardify-img"
-            src="../../images/regardify-img.png"
+            src="../../images/regardify-img.jpg"
             formats={["webp"]}
             quality={100}
             loading="lazy"
