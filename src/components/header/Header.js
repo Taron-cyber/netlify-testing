@@ -42,7 +42,7 @@ const Header = () => {
           </li>
         </ul>
         <button className="header-button">
-          <Link to="/contact">Let's Talk</Link>
+          <Link to="#"> Let's Talk</Link>
         </button>
       </nav>
     </header>

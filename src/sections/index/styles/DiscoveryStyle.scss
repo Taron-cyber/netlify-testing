@@ -1,6 +1,6 @@
 .discovery-section {
-  background-color: #f7f9fc;
   height: 1125px;
+  background-color: #f7f9fc;
 
   .inner-container {
     width: auto;
@@ -36,6 +36,7 @@
         display: flex;
         justify-content: space-around;
         flex-direction: column;
+
         font-family: "Inter Regular";
         font-weight: 400;
         font-size: 16px;
@@ -45,15 +46,17 @@
       .discovery-btn {
         width: 150px;
         height: 56px;
+        padding: 14px 16px;
+        text-align: center;
+        cursor: pointer;
+
         background-color: #3f4b5d;
         color: #ffffff;
         border-radius: 6px;
-        padding: 14px 16px;
-        text-align: center;
+
         font-family: "Inter SemiBold";
         font-weight: 600;
         font-size: 20px;
-        cursor: pointer;
       }
     }
 
@@ -63,8 +66,9 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      border-radius: 16px;
+
       background-color: #a6b5cc;
+      border-radius: 16px;
 
       .discovery-container {
         width: 1136px;
@@ -105,11 +109,12 @@
         }
 
         li {
+          margin: 5px 0 0 20px;
+
           font-family: "Inter Regular";
           font-weight: 400;
           font-size: 16px;
           color: #002033;
-          margin: 5px 0 0 20px;
         }
       }
     }

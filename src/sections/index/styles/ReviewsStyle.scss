@@ -22,14 +22,15 @@
       .reviews-card {
         width: 374px;
         height: 406px;
-        background: #ffffff;
-        border: 1px solid #bbc7dc;
-        box-shadow: 0px 0px 0px 3px #edf0f4;
-        border-radius: 16px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         padding: 20px;
+
+        background-color: #ffffff;
+        border: 1px solid #bbc7dc;
+        box-shadow: 0px 0px 0px 3px #edf0f4;
+        border-radius: 16px;
 
         .card-title {
           font-family: "Inter Bold";
@@ -59,23 +60,25 @@
           }
 
           .name {
-            flex-wrap: wrap;
             width: 258px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+
             font-family: "Inter Regular";
             font-weight: 400;
             font-size: 16px;
-            display: flex;
-            align-items: center;
             color: #002033;
           }
 
           .role {
             width: 258px;
+            display: flex;
+            align-items: center;
+
             font-family: "Inter Regular";
             font-weight: 400;
             font-size: 16px;
-            display: flex;
-            align-items: center;
             color: #5d6873;
           }
         }

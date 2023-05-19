@@ -1,13 +1,14 @@
 .los-angeles-section {
   height: 666px;
-  background-color: #ffffff;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+
+  background-color: #ffffff;
 
   .inner-container {
     position: relative;
-    flex-direction: row;
     width: 1200px;
+    flex-direction: row;
     align-items: center;
 
     .content-container {
@@ -20,20 +21,23 @@
 
       .title {
         width: 695px;
+        height: 70px;
+
         font-family: "Inter Black";
         font-weight: 900;
         font-size: 48px;
         color: #002033;
-        height: 70px;
         span {
           width: 328px;
-          background-color: #fff176;
           padding: 6px;
+
+          background-color: #fff176;
         }
       }
       p {
         width: 602px;
         height: 96px;
+
         font-family: "Inter Regular";
         font-weight: 400;
         font-size: 16px;
