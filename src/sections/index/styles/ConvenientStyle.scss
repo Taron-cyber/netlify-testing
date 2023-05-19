@@ -72,8 +72,9 @@
         padding: 12px 16px;
 
         background-color: #3f4b5d;
-        border-radius: 6px;
         transition: background-color 0.3s ease;
+        border-radius: 6px;
+        border: none;
         &:hover {
           background-color: #555;
           color: black;
