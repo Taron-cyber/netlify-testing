@@ -25,7 +25,7 @@ const ReviewsSection = () => {
           <div className="card-avatar-container">
             <StaticImage
               className="card-avatar-img"
-              src="../../images/avatar.png"
+              src="../../images/avatar.jpg"
               formats={["webp"]}
               quality={100}
               loading="lazy"
@@ -52,7 +52,7 @@ const ReviewsSection = () => {
           <div className="card-avatar-container">
             <StaticImage
               className="card-avatar-img"
-              src="../../images/avatar.png"
+              src="../../images/avatar.jpg"
               formats={["webp"]}
               quality={100}
               loading="lazy"
@@ -79,7 +79,7 @@ const ReviewsSection = () => {
           <div className="card-avatar-container">
             <StaticImage
               className="card-avatar-img"
-              src="../../images/avatar.png"
+              src="../../images/avatar.jpg"
               formats={["webp"]}
               quality={100}
               loading="lazy"

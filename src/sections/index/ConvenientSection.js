@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Container from "../../components/container/Container"
-import plus from "../../images/plus.png"
 
 import "./styles/ConvenientStyle.scss"
 
