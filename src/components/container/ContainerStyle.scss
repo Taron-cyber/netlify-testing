@@ -31,6 +31,7 @@
       display: flex;
       text-align: center;
       font-family: "Inter Black";
+      font-display: swap;
       font-style: normal;
       color: #002033;
       line-height: 50px;
@@ -40,6 +41,7 @@
     .descrip {
       p {
         font-family: "Inter Regular";
+        font-display: swap;
         font-style: normal;
         text-align: center;
         font-weight: 400;
@@ -62,6 +64,7 @@
         color: #ffffff;
         text-decoration: none;
         font-family: "Inter SemiBold";
+        font-display: swap;
         font-weight: 600;
         font-size: 20px;
       }

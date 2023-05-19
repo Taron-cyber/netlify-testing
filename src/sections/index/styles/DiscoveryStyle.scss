@@ -26,6 +26,7 @@
       .discovery-t {
         color: #002033;
         font-family: "Inter Black";
+        font-display: swap;
         font-weight: 900;
         font-size: 48px;
         text-align: start;
@@ -37,6 +38,7 @@
         justify-content: space-around;
         flex-direction: column;
         font-family: "Inter Regular";
+        font-display: swap;
         font-weight: 400;
         font-size: 16px;
         color: #002033;
@@ -51,6 +53,7 @@
         padding: 14px 16px;
         text-align: center;
         font-family: "Inter SemiBold";
+        font-display: swap;
         font-weight: 600;
         font-size: 20px;
         cursor: pointer;
@@ -76,6 +79,7 @@
 
       .stage-title {
         font-family: "Inter Bold";
+        font-display: swap;
         font-weight: 700;
         font-size: 24px;
         color: #002033;
@@ -99,6 +103,7 @@
         }
         p {
           font-family: "Inter Bold";
+          font-display: swap;
           font-weight: 700;
           font-size: 20px;
           color: #002033;
@@ -106,6 +111,7 @@
 
         li {
           font-family: "Inter Regular";
+          font-display: swap;
           font-weight: 400;
           font-size: 16px;
           color: #002033;

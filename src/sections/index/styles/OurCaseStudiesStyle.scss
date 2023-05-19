@@ -8,6 +8,7 @@
     gap: 40px;
     .title {
       font-family: "Inter Black";
+      font-display: swap;
       font-weight: 900;
       font-size: 48px;
       color: #002033;
@@ -39,6 +40,7 @@
 
         .content-title {
           font-family: "Inter Bold";
+          font-display: swap;
           font-weight: 700;
           font-size: 24px;
           color: #002033;
@@ -47,6 +49,7 @@
 
         .content-p {
           font-family: "Inter Regular";
+          font-display: swap;
           font-weight: 400;
           font-size: 16px;
           color: #002033;
@@ -61,6 +64,7 @@
 
           span {
             font-family: "Inter SemiBold";
+            font-display: swap;
             font-weight: 600;
             font-size: 13px;
             color: #002033;
@@ -79,6 +83,7 @@
           text-align: center;
           justify-content: space-around;
           font-family: "Inter Bold";
+          font-display: swap;
           font-weight: 700;
           font-size: 16px;
           color: #002033;
@@ -110,6 +115,7 @@
       padding: 12px 16px;
       border-radius: 6px;
       font-family: "Inter Bold";
+      font-display: swap;
       font-weight: 700;
       font-size: 16px;
       color: #ffffff;
