@@ -52,12 +52,13 @@
       width: 130px;
       height: 56px;
       padding: 14px 16px;
+
       background-color: #3f4b5d;
+      border: none;
       border-radius: 6px;
       transition: background-color 0.3s ease;
       &:hover {
         background-color: #111111;
-        border: 1px solid #fff;
       }
       a {
         color: #ffffff;
