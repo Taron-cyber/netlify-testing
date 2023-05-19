@@ -39,10 +39,12 @@
       .WhatDoWeOffer-icon {
         width: 80px;
         height: 72px;
+        img {
+          object-fit: contain !important;
+        }
       }
 
       .content-container {
-        width: 310px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -60,7 +62,6 @@
           font-weight: 400;
           font-size: 16px;
           color: #002033;
-          line-height: 24px;
           ul {
             margin: 24px 0 0 32px;
 

@@ -57,6 +57,9 @@
           .card-avatar-img {
             width: 40px;
             height: 40px;
+            img {
+              object-fit: contain !important;
+            }
           }
 
           .name {
@@ -88,6 +91,9 @@
     .rev-circle-img {
       width: 76px;
       height: 16px;
+      img {
+        object-fit: contain !important;
+      }
     }
   }
 }

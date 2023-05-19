@@ -33,6 +33,9 @@
       width: 56px;
       height: 56px;
       object-fit: contain;
+      img {
+        object-fit: contain !important;
+      }
     }
 
     .services-items {
