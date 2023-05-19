@@ -60,7 +60,7 @@ const LetsGetStartedSection = () => {
               name="checkbox"
               aria-label="checkbox"
             />
-            <label>Subscribe to our newsletters</label>
+            <label for="checkbox">Subscribe to our newsletters</label>
           </div>
         </div>
       </form>
