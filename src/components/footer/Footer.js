@@ -24,8 +24,8 @@ const Footer = () => {
             />
           </div>
           <div className="footer-items">
+            <p>Our services</p>
             <ul>
-              Our services
               <li>Mobile development</li>
               <li>Back-end development</li>
               <li>Front-end development</li>
@@ -35,8 +35,8 @@ const Footer = () => {
           </div>
 
           <div className="footer-items">
+            <p>Cases</p>
             <ul>
-              Cases
               <li>Mobile development</li>
               <li>Back-end development</li>
               <li>Front-end development</li>
@@ -47,8 +47,8 @@ const Footer = () => {
           </div>
 
           <div className="footer-items">
+            <p> Company</p>
             <ul>
-              Company
               <li>About us</li>
               <li>Cases</li>
               <li>Services</li>

@@ -54,16 +54,16 @@ const DiscoverySection = () => {
           <div className="discovery-stage-items">
             <div className="items-div">
               <p className="p-numbers">01</p>
+              <p>Analysis:</p>
               <ul>
-                <p>Analysis:</p>
                 <li>Core review</li>
                 <li>Product review</li>
               </ul>
             </div>
             <div className="items-div">
               <p className="p-numbers">02</p>
+              <p>Documentation:</p>
               <ul>
-                <p>Documentation:</p>
                 <li>PRD</li>
                 <li>BRD</li>
                 <li>Wireframes</li>
@@ -71,8 +71,8 @@ const DiscoverySection = () => {
             </div>
             <div className="items-div">
               <p className="p-numbers">03</p>
+              <p>Integration:</p>
               <ul>
-                <p>Integration:</p>
                 <li>Integration plan </li>
                 <li>Security auditplanning</li>
                 <li>R&D</li>

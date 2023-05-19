@@ -31,17 +31,16 @@
           width: 227px;
           height: 199px;
           display: flex;
+          flex-direction: column;
+          gap: 12px;
 
-          ul {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-
+          p {
             font-family: "Inter Bold";
             font-weight: 700;
             font-size: 16px;
             color: #002033;
-
+          }
+          ul {
             li {
               display: flex;
               align-items: center;
