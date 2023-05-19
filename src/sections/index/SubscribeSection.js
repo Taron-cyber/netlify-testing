@@ -13,7 +13,11 @@ const SubscribeSection = () => {
         <div className="subscribe-container-title">
           Subscribe to our stories
         </div>
-        <input type="email" placeholder="Enter your e-mail" />
+        <input
+          className="subscribe-input"
+          type="email"
+          placeholder="Enter your e-mail"
+        />
         <button className="subscribe-send-btn">Send</button>
       </div>
     </Container>

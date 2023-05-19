@@ -28,13 +28,17 @@
         color: #ffffff;
       }
 
-      input {
+      .subscribe-input {
         width: 320px;
         height: 48px;
         padding: 10px;
 
-        border: 1px solid #bbc7dc;
+        border: none;
         border-radius: 6px;
+
+        &:focus {
+          outline: none;
+        }
       }
 
       .subscribe-send-btn {
