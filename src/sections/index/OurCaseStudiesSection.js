@@ -1,6 +1,7 @@
 import React from "react"
 import Container from "../../components/container/Container"
 import { StaticImage } from "gatsby-plugin-image"
+
 import "./styles/OurCaseStudiesStyle.scss"
 
 const OurCaseStudiesSection = () => {
@@ -46,7 +47,7 @@ const OurCaseStudiesSection = () => {
         <div className="right-side-container">
           <StaticImage
             className="regardify-img"
-            src="../../images/regardify-img.png"
+            src="../../images/regardify-img.jpg"
             formats={["webp"]}
             quality={100}
             loading="lazy"
