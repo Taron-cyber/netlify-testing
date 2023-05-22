@@ -20,7 +20,7 @@ const OurCaseStudiesSection = () => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-          <div className="span-container">
+          {/* <div className="span-container">
             <span>React</span>
             <span>Angular</span>
             <span>Electron</span>
@@ -30,14 +30,14 @@ const OurCaseStudiesSection = () => {
             <span>Lumen</span>
             <span>Yii</span>
             <span>Go</span>
-          </div>
+          </div> */}
           <button className="see-case-study-btn">
             See case study
             <StaticImage
               className="see-case-btn-img"
               src="../../images/left-arrow.png"
               formats={["webp"]}
-              quality={100}
+              quality={80}
               loading="lazy"
               alt="discovery-img"
             />
@@ -48,7 +48,7 @@ const OurCaseStudiesSection = () => {
             className="regardify-img"
             src="../../images/regardify-img.jpg"
             formats={["webp"]}
-            quality={100}
+            quality={80}
             loading="lazy"
             alt="discovery-img"
           />
@@ -63,7 +63,7 @@ const OurCaseStudiesSection = () => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-          <div className="span-container">
+          {/* <div className="span-container">
             <span>React</span>
             <span>Angular</span>
             <span>Electron</span>
@@ -73,14 +73,14 @@ const OurCaseStudiesSection = () => {
             <span>Lumen</span>
             <span>Yii</span>
             <span>Go</span>
-          </div>
+          </div> */}
           <button className="see-case-study-btn">
             See case study
             <StaticImage
               className="see-case-btn-img"
               src="../../images/left-arrow.png"
               formats={["webp"]}
-              quality={100}
+              quality={80}
               loading="lazy"
               alt="discovery-img"
             />
@@ -91,7 +91,7 @@ const OurCaseStudiesSection = () => {
             className="regardify-img"
             src="../../images/regardify-img.jpg"
             formats={["webp"]}
-            quality={100}
+            quality={80}
             loading="lazy"
             alt="discovery-img"
           />

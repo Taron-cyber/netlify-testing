@@ -8,64 +8,66 @@
 
   background-color: #f7f9fc;
 
-  .title {
-    font-family: "Inter Black";
-    font-style: normal;
-    font-weight: 900;
-    font-size: 50px;
-    color: #002033;
-  }
-
   .inner-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 1200px;
     gap: 40px;
-  }
 
-  .items-container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-
-    .our-services-img {
-      width: 56px;
-      height: 56px;
-      object-fit: contain;
-      img {
-        object-fit: contain !important;
-      }
+    .title {
+      font-family: "Inter Black";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 50px;
+      color: #002033;
     }
 
-    .services-items {
-      width: 384px;
-      height: 245px;
+    .items-container {
+      width: 100%;
       display: flex;
-      flex-direction: column;
-      gap: 12px;
-      padding: 20px 0 0 20px;
-      cursor: pointer;
+      justify-content: space-between;
 
-      box-shadow: inset 0px 0px 13px -1px #d5e0f0;
-      border-radius: 16px;
-      background-color: #ffffff;
-    }
+      .our-services-img {
+        width: 56px;
+        height: 56px;
+        object-fit: contain;
+        img {
+          object-fit: contain !important;
+        }
+      }
 
-    .card-title {
-      font-family: "Inter Bold";
-      font-weight: 700;
-      font-size: 24px;
-      color: #002033;
-    }
+      .services-items {
+        width: 384px;
+        height: 245px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 20px 0 0 20px;
+        cursor: pointer;
 
-    p {
-      width: 336px;
+        box-shadow: inset 0px 0px 13px -1px #d5e0f0;
+        border: 1px solid #d8dde5;
+        border-radius: 16px;
+        background-color: #ffffff;
+      }
 
-      font-family: "Inter Regular";
-      font-weight: 400;
-      font-size: 16px;
-      color: #002033;
+      .card-title {
+        font-family: "Inter Bold";
+        font-weight: 700;
+        font-size: 24px;
+        color: #002033;
+      }
+
+      p {
+        width: 336px;
+
+        font-family: "Inter Regular";
+        font-weight: 400;
+        font-size: 16px;
+        color: #002033;
+      }
     }
   }
 }

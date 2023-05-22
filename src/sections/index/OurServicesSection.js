@@ -17,7 +17,7 @@ const OurServicesSection = () => {
             className="our-services-img"
             src="../../images/phone.png"
             formats={["webp"]}
-            quality={100}
+            quality={80}
             loading="lazy"
             alt="vectors"
           />
@@ -32,7 +32,7 @@ const OurServicesSection = () => {
             className="our-services-img"
             src="../../images/circle.png"
             formats={["webp"]}
-            quality={100}
+            quality={80}
             loading="lazy"
             alt="vectors"
           />
@@ -47,7 +47,7 @@ const OurServicesSection = () => {
             className="our-services-img"
             src="../../images/Back.png"
             formats={["webp"]}
-            quality={100}
+            quality={80}
             loading="lazy"
             alt="vectors"
           />
@@ -64,7 +64,7 @@ const OurServicesSection = () => {
             className="our-services-img"
             src="../../images/Ai.png"
             formats={["webp"]}
-            quality={100}
+            quality={80}
             loading="lazy"
             alt="vectors"
           />
@@ -79,7 +79,7 @@ const OurServicesSection = () => {
             className="our-services-img"
             src="../../images/phone.png"
             formats={["webp"]}
-            quality={100}
+            quality={80}
             loading="lazy"
             alt="vectors"
           />
@@ -94,7 +94,7 @@ const OurServicesSection = () => {
             className="our-services-img"
             src="../../images/People.png"
             formats={["webp"]}
-            quality={100}
+            quality={80}
             loading="lazy"
             alt="vectors"
           />

@@ -20,16 +20,25 @@ const LosAngelesSection = () => {
           business processes to make our partnership smooth for you.
         </p>
       </div>
-      <div className="map-container">
+      {/* <div className="map-container">
         <StaticImage
           className="map-img"
-          src="../../images/map.png"
+          src="../../images/contours.png"
           formats={["webp"]}
-          quality={100}
+          quality={80}
           loading="lazy"
           alt="vectors"
         />
-      </div>
+
+        <StaticImage
+          className="ellipse-img"
+          src="../../images/ellipse.png"
+          formats={["webp"]}
+          quality={80}
+          loading="lazy"
+          alt="vectors"
+        />
+      </div> */}
     </Container>
   )
 }

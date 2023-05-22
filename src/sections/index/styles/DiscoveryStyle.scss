@@ -1,6 +1,6 @@
 .discovery-section {
   height: 1125px;
-  background-color: #f7f9fc;
+  background-color: #ffffff;
 
   .inner-container {
     width: auto;
@@ -53,7 +53,7 @@
         text-align: center;
         cursor: pointer;
 
-        background-color: #3f4b5d;
+        background-color: #202630;
         color: #ffffff;
         border-radius: 6px;
         border: none;
@@ -71,7 +71,9 @@
       align-items: center;
       justify-content: center;
 
-      background-color: #a6b5cc;
+      background: url("../../../images/discovery-stage-bg.png") #3069e1;
+      background-repeat: no-repeat;
+      background-size: contain;
       border-radius: 16px;
 
       .discovery-container {
@@ -86,7 +88,7 @@
         font-family: "Inter Bold";
         font-weight: 700;
         font-size: 24px;
-        color: #002033;
+        color: #ffffff;
       }
 
       .discovery-stage-items {
@@ -103,13 +105,13 @@
         }
 
         .p-numbers {
-          border-bottom: 6px solid #002033;
+          border-bottom: 6px solid #ffffff;
         }
         p {
           font-family: "Inter Bold";
           font-weight: 700;
           font-size: 20px;
-          color: #002033;
+          color: #ffffff;
         }
 
         li {
@@ -118,7 +120,7 @@
           font-family: "Inter Regular";
           font-weight: 400;
           font-size: 16px;
-          color: #002033;
+          color: #ffffff;
         }
       }
     }

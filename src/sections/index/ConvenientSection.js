@@ -28,7 +28,7 @@ const ConvenientSection = () => {
               className="convenient-img"
               src="../../images/plus.png"
               formats={["webp"]}
-              quality={100}
+              quality={80}
               loading="lazy"
               alt="plus-icon"
             />
@@ -50,7 +50,7 @@ const ConvenientSection = () => {
               className="convenient-img"
               src="../../images/plus.png"
               formats={["webp"]}
-              quality={100}
+              quality={80}
               loading="lazy"
               alt="plus-icon"
             />

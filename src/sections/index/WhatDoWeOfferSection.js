@@ -16,9 +16,9 @@ const WhatDoWeOfferSection = () => {
         <div className="WhatDoWeOffer-card">
           <StaticImage
             className="WhatDoWeOffer-icon"
-            src="../../images/purple.png"
+            src="../../images/billing.png"
             formats={["webp"]}
-            quality={100}
+            quality={80}
             loading="lazy"
             alt="vectors"
           />
@@ -36,9 +36,9 @@ const WhatDoWeOfferSection = () => {
         <div className="WhatDoWeOffer-card">
           <StaticImage
             className="WhatDoWeOffer-icon"
-            src="../../images/green.png"
+            src="../../images/offer-section-communication.png"
             formats={["webp"]}
-            quality={100}
+            quality={80}
             loading="lazy"
             alt="vectors"
           />
@@ -62,9 +62,9 @@ const WhatDoWeOfferSection = () => {
         <div className="WhatDoWeOffer-card">
           <StaticImage
             className="WhatDoWeOffer-icon"
-            src="../../images/yellow.png"
+            src="../../images/tracking.png"
             formats={["webp"]}
-            quality={100}
+            quality={80}
             loading="lazy"
             alt="vectors"
           />

@@ -1,7 +1,7 @@
 .letsGetStarted-section-container {
-  background: url("../../../images/rev-bg.png") #f7f9fc;
+  background: url("../../../images/lets-get-started-bg.png") #3069e1;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 
   .inner-container {
     height: auto;
@@ -15,7 +15,7 @@
       font-family: "Inter Black";
       font-weight: 900;
       font-size: 48px;
-      color: #002033;
+      color: #ffffff;
     }
 
     .form-container {
@@ -68,7 +68,7 @@
         padding: 12px 16px;
         cursor: pointer;
 
-        background-color: #3f4b5d;
+        background-color: #202630;
         border-radius: 6px;
         border: none;
 

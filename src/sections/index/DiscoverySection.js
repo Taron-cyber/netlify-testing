@@ -15,7 +15,7 @@ const DiscoverySection = () => {
           className="discovery-img"
           src="../../images/discovery-stage-img.jpg"
           formats={["webp"]}
-          quality={100}
+          quality={80}
           loading="lazy"
           alt="discovery-img"
         />

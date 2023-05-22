@@ -1,72 +1,74 @@
 .WhatDoWeOffer-container {
   height: 876px;
 
-  background-color: #f7f9fc;
+  background-color: #ffffff;
 
   .inner-container {
     align-items: center;
     justify-content: center;
-    gap: 40px;
-  }
-
-  .WhatDoWeOffer-title {
-    font-family: "Inter Black";
-    font-weight: 900;
-    font-size: 48px;
-    color: #002033;
-  }
-
-  .WhatDoWeOffer-card-container {
-    width: 1200px;
-    height: 578px;
-    display: flex;
+    flex-direction: column;
     gap: 40px;
 
-    .WhatDoWeOffer-card {
-      width: 374px;
+    .WhatDoWeOffer-title {
+      font-family: "Inter Black";
+      font-weight: 900;
+      font-size: 48px;
+      color: #002033;
+    }
+
+    .WhatDoWeOffer-card-container {
+      width: 1200px;
       height: 578px;
       display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 32px;
-      gap: 10px;
+      gap: 40px;
 
-      background-color: #ffffff;
-      border: 1px solid #bbc7dc;
-      box-shadow: 0px 0px 0px 3px #edf0f4;
-      border-radius: 16px;
-
-      .WhatDoWeOffer-icon {
-        width: 80px;
-        height: 72px;
-        img {
-          object-fit: contain !important;
-        }
-      }
-
-      .content-container {
+      .WhatDoWeOffer-card {
+        width: 374px;
+        height: 578px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        gap: 8px;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 10px;
 
-        .WhatDoWeOffer-card-title {
-          font-family: "Inter Bold";
-          font-weight: 700;
-          font-size: 24px;
-          color: #002033;
+        background-color: #ffffff;
+        border: 1px solid #bbc7dc;
+        box-shadow: 0px 0px 0px 3px #edf0f4;
+        border-radius: 16px;
+
+        .WhatDoWeOffer-icon {
+          width: 48px;
+          height: 48px;
+
+          img {
+            object-fit: contain !important;
+          }
         }
 
-        .WhatDoWeOffer-card-content {
-          font-family: "Inter Regular";
-          font-weight: 400;
-          font-size: 16px;
-          color: #002033;
-          ul {
-            margin: 24px 0 0 32px;
+        .content-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          gap: 8px;
 
-            li {
-              padding-bottom: 8px;
+          .WhatDoWeOffer-card-title {
+            font-family: "Inter Bold";
+            font-weight: 700;
+            font-size: 24px;
+            color: #002033;
+          }
+
+          .WhatDoWeOffer-card-content {
+            font-family: "Inter Regular";
+            font-weight: 400;
+            font-size: 16px;
+            color: #002033;
+            ul {
+              margin: 24px 0 0 32px;
+
+              li {
+                padding-bottom: 8px;
+              }
             }
           }
         }

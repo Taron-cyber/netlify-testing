@@ -1,5 +1,78 @@
 .top-section {
-  background-image: url("../../../images/bg.png");
+  height: 582px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+
+  background-color: #f7f9fc;
+
+  .inner-container {
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+
+    .left-inner {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      height: 400px;
+
+      h1 {
+        width: 732px;
+        margin: 0;
+
+        font-weight: 900;
+        font-size: 48px;
+        font-family: "Inter Black";
+        font-style: normal;
+        color: #002033;
+        line-height: 58px;
+
+        span {
+          color: #3069e1;
+        }
+      }
+
+      .descrip {
+        margin-top: 24px;
+        p {
+          font-family: "Inter Regular";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+        }
+      }
+
+      .button {
+        width: 130px;
+        height: 56px;
+        padding: 14px 16px;
+        margin-top: 40px;
+
+        background-color: #202630;
+        border: none;
+        border-radius: 6px;
+        transition: background-color 0.3s ease;
+
+        a {
+          color: #ffffff;
+          text-decoration: none;
+          font-family: "Inter SemiBold";
+          font-weight: 600;
+          font-size: 20px;
+        }
+      }
+    }
+
+    .right-inner {
+      width: 40%;
+      .cover-section-cube-img {
+        width: 453px;
+        height: 513px;
+      }
+    }
+  }
 }
 
 @font-face {

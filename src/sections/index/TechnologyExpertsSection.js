@@ -67,7 +67,6 @@ const TechnologyExpertsSection = () => {
             <span>React</span>
             <span>Angular</span>
             <span>Electron</span>
-            <span>Typescript</span>
             <span>Symfony</span>
             <span>Laravel</span>
             <span>Lumen</span>
@@ -88,7 +87,6 @@ const TechnologyExpertsSection = () => {
             <span>Typescript</span>
             <span>Symfony</span>
             <span>Laravel</span>
-            <span>Lumen</span>
             <span>Yii</span>
             <span>Go</span>
           </div>

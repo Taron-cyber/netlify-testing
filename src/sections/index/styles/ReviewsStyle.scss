@@ -1,10 +1,11 @@
 .reviews-section {
-  background: url("../../../images/rev-bg.png") #f7f9fc;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #ffffff;
 
   .inner-container {
     height: 550px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
 
     .reviews-title {
       font-family: "Inter Black";

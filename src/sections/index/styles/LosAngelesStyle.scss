@@ -1,20 +1,21 @@
 .los-angeles-section {
-  height: 666px;
+  height: 735px;
   justify-content: center;
   align-items: center;
 
-  background-color: #ffffff;
+  background: url("../../../images/contours.png") #202630;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
 
   .inner-container {
-    position: relative;
-    width: 1200px;
     flex-direction: row;
     align-items: center;
 
     .content-container {
-      position: absolute;
       width: 697px;
       height: 194px;
+      left: 83px;
       gap: 40px;
       display: flex;
       flex-direction: column;
@@ -26,12 +27,12 @@
         font-family: "Inter Black";
         font-weight: 900;
         font-size: 48px;
-        color: #002033;
+        color: #ffffff;
         span {
           width: 328px;
           padding: 6px;
 
-          background-color: #fff176;
+          background-color: #3069e1;
         }
       }
       p {
@@ -42,18 +43,7 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
-        color: #002033;
-      }
-    }
-
-    .map-img {
-      position: absolute;
-      left: 430px;
-      bottom: -40px;
-      height: 498px;
-      width: 761px;
-      img {
-        object-fit: contain !important;
+        color: #ffffff;
       }
     }
   }

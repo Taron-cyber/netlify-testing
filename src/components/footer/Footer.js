@@ -17,7 +17,7 @@ const Footer = () => {
               className="footer-logo-img"
               src="../../images/footer-logo.png"
               formats={["webp"]}
-              quality={100}
+              quality={80}
               loading="lazy"
               alt="footer-logo"
             />
@@ -62,7 +62,7 @@ const Footer = () => {
             className="social-media-img"
             src="../../images/behance.png"
             formats={["webp"]}
-            quality={100}
+            quality={80}
             loading="lazy"
             alt="behance-logo"
           />
@@ -70,7 +70,7 @@ const Footer = () => {
             className="social-media-img"
             src="../../images/instagram.png"
             formats={["webp"]}
-            quality={100}
+            quality={80}
             loading="lazy"
             alt="instagram-logo"
           />
@@ -79,7 +79,7 @@ const Footer = () => {
             className="social-media-img"
             src="../../images/twitter.png"
             formats={["webp"]}
-            quality={100}
+            quality={80}
             loading="lazy"
             alt="twitter-logo"
           />
@@ -88,7 +88,7 @@ const Footer = () => {
             className="social-media-img"
             src="../../images/facebook.png"
             formats={["webp"]}
-            quality={100}
+            quality={80}
             loading="lazy"
             alt="facebook-logo"
           />
