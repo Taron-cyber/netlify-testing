@@ -22,7 +22,7 @@
       font-family: "Inter Black";
       font-style: normal;
       font-weight: 900;
-      font-size: 50px;
+      font-size: 48px;
       color: #ffffff;
     }
 
@@ -71,11 +71,10 @@
         width: 325px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 10px;
+        gap: 8px;
 
         span {
-          padding: 4px 6px;
+          padding: 4px 8px;
           font-family: "Inter SemiBold";
           font-weight: 600;
           font-size: 13px;
