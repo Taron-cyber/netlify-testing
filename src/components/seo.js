@@ -56,7 +56,7 @@ const Seo = ({ title, description, meta = [] }) => {
 
         {
           property: "og:updated_time",
-          content: "2023-03-15T15:45:52+00:00",
+          content: "2023-05-23T15:45:52+00:00",
         },
         {
           property: "og:image",
