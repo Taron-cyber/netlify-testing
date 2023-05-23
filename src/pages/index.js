@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Header from "../components/header/Header"
 import CoverSection from "../components/cover-section/CoverSection"
 import PrinciplesSection from "../sections/index/PrinciplesSection"
@@ -34,7 +34,7 @@ import "../sections/index/styles/main.scss"
 const IndexPage = () => {
   return (
     <Layout>
-      <SEO title="The Top 20 Destinations to Visit in Europe" />
+      <Seo title="The Top 20 Destinations to Visit in Europe" />
       <Header />
       <CoverSection />
       <PrinciplesSection />
