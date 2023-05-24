@@ -28,7 +28,6 @@ const SubscribeSection = () => {
           className="subscribe-circle"
           src="../../images/sub-section-img2.png"
           quality={80}
-          loading="lazy"
           alt="avatar-img"
         />
       </div>

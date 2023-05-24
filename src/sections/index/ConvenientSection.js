@@ -28,7 +28,6 @@ const ConvenientSection = () => {
               className="convenient-img"
               src="../../images/plus.png"
               quality={80}
-              loading="lazy"
               alt="plus-icon"
             />
             when an unknown printer took a galley of type and scrambled
@@ -49,7 +48,6 @@ const ConvenientSection = () => {
               className="convenient-img"
               src="../../images/plus.png"
               quality={80}
-              loading="lazy"
               alt="plus-icon"
             />
             when an unknown printer took a galley of type and scrambled

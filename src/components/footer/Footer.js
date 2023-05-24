@@ -17,7 +17,6 @@ const Footer = () => {
               className="footer-logo-img"
               src="../../images/footer-logo.png"
               quality={80}
-              loading="lazy"
               alt="footer-logo"
             />
           </div>
@@ -61,14 +60,12 @@ const Footer = () => {
             className="social-media-img"
             src="../../images/behance.png"
             quality={80}
-            loading="lazy"
             alt="behance-logo"
           />
           <StaticImage
             className="social-media-img"
             src="../../images/instagram.png"
             quality={80}
-            loading="lazy"
             alt="instagram-logo"
           />
 
@@ -76,7 +73,6 @@ const Footer = () => {
             className="social-media-img"
             src="../../images/twitter.png"
             quality={80}
-            loading="lazy"
             alt="twitter-logo"
           />
 
@@ -84,7 +80,6 @@ const Footer = () => {
             className="social-media-img"
             src="../../images/facebook.png"
             quality={80}
-            loading="lazy"
             alt="facebook-logo"
           />
         </div>

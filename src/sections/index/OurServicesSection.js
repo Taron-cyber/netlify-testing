@@ -17,7 +17,6 @@ const OurServicesSection = () => {
             className="our-services-img"
             src="../../images/mobile-development.png"
             quality={80}
-            loading="lazy"
             alt="vectors"
           />
           <p className="card-title">Lorem Ipsum</p>
@@ -31,7 +30,6 @@ const OurServicesSection = () => {
             className="our-services-img"
             src="../../images/Front.png"
             quality={80}
-            loading="lazy"
             alt="vectors"
           />
           <p className="card-title">Lorem Ipsum</p>
@@ -45,7 +43,6 @@ const OurServicesSection = () => {
             className="our-services-img"
             src="../../images/Back.png"
             quality={80}
-            loading="lazy"
             alt="vectors"
           />
           <p className="card-title">Lorem Ipsum</p>
@@ -61,7 +58,6 @@ const OurServicesSection = () => {
             className="our-services-img"
             src="../../images/Ai.png"
             quality={80}
-            loading="lazy"
             alt="vectors"
           />
           <p className="card-title">Lorem Ipsum</p>
@@ -75,7 +71,6 @@ const OurServicesSection = () => {
             className="our-services-img"
             src="../../images/computer-vision.png"
             quality={80}
-            loading="lazy"
             alt="vectors"
           />
           <p className="card-title">Lorem Ipsum</p>
@@ -89,7 +84,6 @@ const OurServicesSection = () => {
             className="our-services-img"
             src="../../images/team.png"
             quality={80}
-            loading="lazy"
             alt="vectors"
           />
           <p className="card-title">Lorem Ipsum</p>

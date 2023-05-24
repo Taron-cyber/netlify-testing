@@ -18,7 +18,6 @@ const PrinciplesSection = () => {
             className="principles-img"
             src="../../images/principles-one.png"
             quality={80}
-            loading="lazy"
             alt="number"
           />
           Lorem Ipsum is simply dummy text of the
@@ -28,7 +27,6 @@ const PrinciplesSection = () => {
             className="principles-img"
             src="../../images/principles-two.png"
             quality={80}
-            loading="lazy"
             alt="number"
           />
           Lorem Ipsum is simply dummy text of the
@@ -40,7 +38,6 @@ const PrinciplesSection = () => {
             className="principles-img"
             src="../../images/principles-three.png"
             quality={80}
-            loading="lazy"
             alt="number"
           />
           Lorem Ipsum is simply dummy text of the
@@ -50,7 +47,6 @@ const PrinciplesSection = () => {
             className="principles-img"
             src="../../images/principles-four.png"
             quality={80}
-            loading="lazy"
             alt="number"
           />
           Lorem Ipsum is simply dummy text of the, Lorem Ipsum is simply dummy
@@ -61,7 +57,6 @@ const PrinciplesSection = () => {
             className="principles-img"
             src="../../images/principles-five.png"
             quality={80}
-            loading="lazy"
             alt="number"
           />
           Lorem Ipsum is simply dummy text of the

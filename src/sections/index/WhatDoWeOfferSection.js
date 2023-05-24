@@ -18,7 +18,6 @@ const WhatDoWeOfferSection = () => {
             className="WhatDoWeOffer-icon"
             src="../../images/billing.png"
             quality={80}
-            loading="lazy"
             alt="vectors"
           />
           <div className="content-container">
@@ -37,7 +36,6 @@ const WhatDoWeOfferSection = () => {
             className="WhatDoWeOffer-icon"
             src="../../images/offer-section-communication.png"
             quality={80}
-            loading="lazy"
             alt="vectors"
           />
           <div className="content-container">
@@ -62,7 +60,6 @@ const WhatDoWeOfferSection = () => {
             className="WhatDoWeOffer-icon"
             src="../../images/tracking.png"
             quality={80}
-            loading="lazy"
             alt="vectors"
           />
           <div className="content-container">
