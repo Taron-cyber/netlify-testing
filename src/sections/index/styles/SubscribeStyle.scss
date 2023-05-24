@@ -67,8 +67,11 @@
     }
     .right-inner {
       .subscribe-circle {
-        width: 258px;
-        height: 258px;
+        width: 326px;
+        height: 306px;
+        img {
+          object-fit: contain !important;
+        }
       }
     }
   }

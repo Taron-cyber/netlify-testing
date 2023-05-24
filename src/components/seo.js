@@ -84,7 +84,7 @@ const Seo = ({ title, description, meta = [] }) => {
         },
         {
           name: "og:image:type",
-          content: "image/jpeg",
+          content: "image/webp",
         },
         {
           name: "twitter:card",
