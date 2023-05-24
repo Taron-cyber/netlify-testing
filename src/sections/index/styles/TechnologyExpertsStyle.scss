@@ -29,7 +29,8 @@
     .items-container {
       width: 100%;
       display: flex;
-      justify-content: space-between;
+      // justify-content: space-between;
+      gap: 40px;
 
       .technology-items {
         width: 384px;

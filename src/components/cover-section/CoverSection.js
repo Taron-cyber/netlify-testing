@@ -25,7 +25,6 @@ const CoverSection = () => (
       <StaticImage
         className="cover-section-cube-img"
         src="../../images/cube.png"
-        formats={["webp"]}
         quality={80}
         loading="lazy"
         alt="vectors"

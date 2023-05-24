@@ -24,7 +24,6 @@ const LosAngelesSection = () => {
         <StaticImage
           className="map-img"
           src="../../images/contours.png"
-          formats={["webp"]}
           quality={80}
           loading="lazy"
           alt="vectors"
@@ -33,7 +32,6 @@ const LosAngelesSection = () => {
         <StaticImage
           className="ellipse-img"
           src="../../images/ellipse.png"
-          formats={["webp"]}
           quality={80}
           loading="lazy"
           alt="vectors"

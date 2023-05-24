@@ -36,7 +36,6 @@ const OurCaseStudiesSection = () => {
             <StaticImage
               className="see-case-btn-img"
               src="../../images/left-arrow.png"
-              formats={["webp"]}
               quality={80}
               loading="lazy"
               alt="discovery-img"
@@ -47,7 +46,6 @@ const OurCaseStudiesSection = () => {
           <StaticImage
             className="regardify-img"
             src="../../images/regardify-img.jpg"
-            formats={["webp"]}
             quality={80}
             loading="lazy"
             alt="discovery-img"
@@ -79,7 +77,6 @@ const OurCaseStudiesSection = () => {
             <StaticImage
               className="see-case-btn-img"
               src="../../images/left-arrow.png"
-              formats={["webp"]}
               quality={80}
               loading="lazy"
               alt="discovery-img"
@@ -90,7 +87,6 @@ const OurCaseStudiesSection = () => {
           <StaticImage
             className="regardify-img"
             src="../../images/regardify-img.jpg"
-            formats={["webp"]}
             quality={80}
             loading="lazy"
             alt="discovery-img"

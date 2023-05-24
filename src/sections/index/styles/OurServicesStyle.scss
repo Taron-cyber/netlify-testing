@@ -5,11 +5,11 @@
   background-color: #ffffff;
 
   .inner-container {
+    width: 1200px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 1200px;
     gap: 40px;
 
     .title {
@@ -24,15 +24,7 @@
       width: 100%;
       display: flex;
       justify-content: space-between;
-
-      .our-services-img {
-        width: 48px;
-        height: 48px;
-
-        img {
-          object-fit: contain !important;
-        }
-      }
+      gap: 40px;
 
       .services-items {
         width: 384px;
@@ -47,6 +39,15 @@
         border: 1px solid #d8dde5;
         border-radius: 16px;
         background-color: #ffffff;
+
+        .our-services-img {
+          width: 48px;
+          height: 48px;
+
+          img {
+            object-fit: contain !important;
+          }
+        }
       }
 
       .card-title {

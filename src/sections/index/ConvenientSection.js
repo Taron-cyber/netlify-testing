@@ -27,7 +27,6 @@ const ConvenientSection = () => {
             <StaticImage
               className="convenient-img"
               src="../../images/plus.png"
-              formats={["webp"]}
               quality={80}
               loading="lazy"
               alt="plus-icon"
@@ -49,7 +48,6 @@ const ConvenientSection = () => {
             <StaticImage
               className="convenient-img"
               src="../../images/plus.png"
-              formats={["webp"]}
               quality={80}
               loading="lazy"
               alt="plus-icon"

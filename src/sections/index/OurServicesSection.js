@@ -16,7 +16,6 @@ const OurServicesSection = () => {
           <StaticImage
             className="our-services-img"
             src="../../images/mobile-development.png"
-            formats={["webp"]}
             quality={80}
             loading="lazy"
             alt="vectors"
@@ -31,7 +30,6 @@ const OurServicesSection = () => {
           <StaticImage
             className="our-services-img"
             src="../../images/Front.png"
-            formats={["webp"]}
             quality={80}
             loading="lazy"
             alt="vectors"
@@ -46,7 +44,6 @@ const OurServicesSection = () => {
           <StaticImage
             className="our-services-img"
             src="../../images/Back.png"
-            formats={["webp"]}
             quality={80}
             loading="lazy"
             alt="vectors"
@@ -63,7 +60,6 @@ const OurServicesSection = () => {
           <StaticImage
             className="our-services-img"
             src="../../images/Ai.png"
-            formats={["webp"]}
             quality={80}
             loading="lazy"
             alt="vectors"
@@ -78,7 +74,6 @@ const OurServicesSection = () => {
           <StaticImage
             className="our-services-img"
             src="../../images/computer-vision.png"
-            formats={["webp"]}
             quality={80}
             loading="lazy"
             alt="vectors"
@@ -93,7 +88,6 @@ const OurServicesSection = () => {
           <StaticImage
             className="our-services-img"
             src="../../images/team.png"
-            formats={["webp"]}
             quality={80}
             loading="lazy"
             alt="vectors"

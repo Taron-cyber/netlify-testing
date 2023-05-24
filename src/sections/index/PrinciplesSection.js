@@ -17,7 +17,6 @@ const PrinciplesSection = () => {
           <StaticImage
             className="principles-img"
             src="../../images/principles-one.png"
-            formats={["webp"]}
             quality={80}
             loading="lazy"
             alt="number"
@@ -28,7 +27,6 @@ const PrinciplesSection = () => {
           <StaticImage
             className="principles-img"
             src="../../images/principles-two.png"
-            formats={["webp"]}
             quality={80}
             loading="lazy"
             alt="number"
@@ -41,7 +39,6 @@ const PrinciplesSection = () => {
           <StaticImage
             className="principles-img"
             src="../../images/principles-three.png"
-            formats={["webp"]}
             quality={80}
             loading="lazy"
             alt="number"
@@ -52,7 +49,6 @@ const PrinciplesSection = () => {
           <StaticImage
             className="principles-img"
             src="../../images/principles-four.png"
-            formats={["webp"]}
             quality={80}
             loading="lazy"
             alt="number"
@@ -64,7 +60,6 @@ const PrinciplesSection = () => {
           <StaticImage
             className="principles-img"
             src="../../images/principles-five.png"
-            formats={["webp"]}
             quality={80}
             loading="lazy"
             alt="number"

@@ -12,7 +12,6 @@ const Header = () => {
           <StaticImage
             className="web_logo"
             src="../../images/website-logo.png"
-            formats={["webp"]}
             quality={80}
             loading="lazy"
             alt="header-logo"

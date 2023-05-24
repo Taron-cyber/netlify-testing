@@ -26,7 +26,6 @@ const ReviewsSection = () => {
             <StaticImage
               className="card-avatar-img"
               src="../../images/avatar.jpg"
-              formats={["webp"]}
               quality={80}
               loading="lazy"
               alt="avatar-img"
@@ -52,7 +51,6 @@ const ReviewsSection = () => {
             <StaticImage
               className="card-avatar-img"
               src="../../images/avatar.jpg"
-              formats={["webp"]}
               quality={80}
               loading="lazy"
               alt="avatar-img"
@@ -78,7 +76,6 @@ const ReviewsSection = () => {
             <StaticImage
               className="card-avatar-img"
               src="../../images/avatar.jpg"
-              formats={["webp"]}
               quality={80}
               loading="lazy"
               alt="avatar-img"
@@ -95,7 +92,6 @@ const ReviewsSection = () => {
       <StaticImage
         className="rev-circle-img"
         src="../../images/slider-circle.png"
-        formats={["webp"]}
         quality={80}
         loading="lazy"
         alt="slider-img"

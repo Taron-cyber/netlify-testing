@@ -29,6 +29,7 @@ module.exports = {
       resolve: `gatsby-plugin-sharp`,
       options: {
         defaults: {
+          formats: [`webp`],
           backgroundColor: "transparent",
           placeholder: "none",
         },

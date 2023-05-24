@@ -14,7 +14,6 @@ const DiscoverySection = () => {
         <StaticImage
           className="discovery-img"
           src="../../images/discovery-stage-img.jpg"
-          formats={["webp"]}
           quality={80}
           loading="lazy"
           alt="discovery-img"

@@ -17,7 +17,6 @@ const WhatDoWeOfferSection = () => {
           <StaticImage
             className="WhatDoWeOffer-icon"
             src="../../images/billing.png"
-            formats={["webp"]}
             quality={80}
             loading="lazy"
             alt="vectors"
@@ -37,7 +36,6 @@ const WhatDoWeOfferSection = () => {
           <StaticImage
             className="WhatDoWeOffer-icon"
             src="../../images/offer-section-communication.png"
-            formats={["webp"]}
             quality={80}
             loading="lazy"
             alt="vectors"
@@ -63,7 +61,6 @@ const WhatDoWeOfferSection = () => {
           <StaticImage
             className="WhatDoWeOffer-icon"
             src="../../images/tracking.png"
-            formats={["webp"]}
             quality={80}
             loading="lazy"
             alt="vectors"

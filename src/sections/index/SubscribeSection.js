@@ -27,7 +27,6 @@ const SubscribeSection = () => {
         <StaticImage
           className="subscribe-circle"
           src="../../images/sub-section-img2.png"
-          formats={["webp"]}
           quality={80}
           loading="lazy"
           alt="avatar-img"
