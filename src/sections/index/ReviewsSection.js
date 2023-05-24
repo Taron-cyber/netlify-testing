@@ -27,6 +27,7 @@ const ReviewsSection = () => {
               className="card-avatar-img"
               src="../../images/avatar.jpg"
               quality={80}
+              loading="lazy"
               alt="avatar-img"
             />
 
@@ -51,6 +52,7 @@ const ReviewsSection = () => {
               className="card-avatar-img"
               src="../../images/avatar.jpg"
               quality={80}
+              loading="lazy"
               alt="avatar-img"
             />
 
@@ -75,6 +77,7 @@ const ReviewsSection = () => {
               className="card-avatar-img"
               src="../../images/avatar.jpg"
               quality={80}
+              loading="lazy"
               alt="avatar-img"
             />
 
@@ -90,6 +93,7 @@ const ReviewsSection = () => {
         className="rev-circle-img"
         src="../../images/slider-circle.png"
         quality={80}
+        loading="lazy"
         alt="slider-img"
       />
     </Container>

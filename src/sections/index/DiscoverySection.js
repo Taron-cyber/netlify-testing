@@ -15,6 +15,7 @@ const DiscoverySection = () => {
           className="discovery-img"
           src="../../images/discovery-stage-img.jpg"
           quality={80}
+          loading="lazy"
           alt="discovery-img"
         />
       </div>

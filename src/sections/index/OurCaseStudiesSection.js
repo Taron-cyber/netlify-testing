@@ -37,6 +37,7 @@ const OurCaseStudiesSection = () => {
               className="see-case-btn-img"
               src="../../images/left-arrow.png"
               quality={80}
+              loading="lazy"
               alt="discovery-img"
             />
           </button>
@@ -46,6 +47,7 @@ const OurCaseStudiesSection = () => {
             className="regardify-img"
             src="../../images/regardify-img.jpg"
             quality={80}
+            loading="lazy"
             alt="discovery-img"
           />
         </div>
@@ -76,6 +78,7 @@ const OurCaseStudiesSection = () => {
               className="see-case-btn-img"
               src="../../images/left-arrow.png"
               quality={80}
+              loading="lazy"
               alt="discovery-img"
             />
           </button>
@@ -85,6 +88,7 @@ const OurCaseStudiesSection = () => {
             className="regardify-img"
             src="../../images/regardify-img.jpg"
             quality={80}
+            loading="lazy"
             alt="discovery-img"
           />
         </div>

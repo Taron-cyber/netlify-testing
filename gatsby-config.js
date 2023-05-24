@@ -30,7 +30,6 @@ module.exports = {
       options: {
         defaults: {
           formats: [`webp`],
-          loading: "lazy",
           backgroundColor: "transparent",
           placeholder: "none",
         },
