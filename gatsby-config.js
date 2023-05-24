@@ -25,7 +25,15 @@ module.exports = {
     },
 
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {
+          backgroundColor: "transparent",
+          placeholder: "none",
+        },
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
