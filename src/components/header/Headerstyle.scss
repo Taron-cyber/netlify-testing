@@ -44,12 +44,22 @@
       list-style: none;
 
       .menu-item {
+        align-items: center;
         a {
           color: #000;
           text-decoration: none;
           font-family: "Inter SemiBold";
           font-weight: 600;
           font-size: 16px;
+
+          .header-item-arrow {
+            width: 16px;
+            height: 16px;
+            margin-left: 4px;
+            img {
+              object-fit: contain !important;
+            }
+          }
         }
       }
     }

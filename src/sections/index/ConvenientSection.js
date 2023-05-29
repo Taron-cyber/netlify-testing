@@ -47,7 +47,7 @@ const ConvenientSection = () => {
           <div className="plus-div">
             <StaticImage
               className="convenient-img"
-              src="../../images/plus.png"
+              src="../../images/plus-white.png"
               quality={80}
               loading="lazy"
               alt="plus-icon"

@@ -10,9 +10,7 @@ const LosAngelesSection = () => {
       innerClassName="inner-container"
     >
       <div className="content-container">
-        <div className="title">
-          Lorem Asia in <span>Los Angeles</span>
-        </div>
+        <div className="title">Lorem Asia in Los Angeles</div>
         <p>
           No matter where you are in North America, Europe, or Asia, our teams
           work effectively and efficiently on your schedule. We adjust our

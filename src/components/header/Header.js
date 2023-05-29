@@ -27,10 +27,28 @@ const Header = () => {
             <Link to="/cases">Cases</Link>
           </li>
           <li className="menu-item">
-            <Link to="/services">Services</Link>
+            <Link to="/services">
+              Services
+              <StaticImage
+                className="header-item-arrow"
+                src="../../images/arrow-down.png"
+                quality={80}
+                loading="lazy"
+                alt="arrow-down"
+              />
+            </Link>
           </li>
           <li className="menu-item">
-            <Link to="/solutions">Solutions</Link>
+            <Link to="/solutions">
+              Solutions{" "}
+              <StaticImage
+                className="header-item-arrow"
+                src="../../images/arrow-down.png"
+                quality={80}
+                loading="lazy"
+                alt="arrow-down"
+              />
+            </Link>
           </li>
           <li className="menu-item">
             <Link to="/careers">Careers</Link>

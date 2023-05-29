@@ -1,5 +1,5 @@
 .our-case-studies-section {
-  height: 1124px;
+  height: 1172px;
   background-color: #ffffff;
 
   .inner-container {
@@ -9,6 +9,15 @@
     justify-content: space-around;
     flex-direction: column;
     gap: 40px;
+
+    .title {
+      margin-top: 100px;
+
+      font-family: "Inter Black";
+      font-weight: 900;
+      font-size: 48px;
+      color: #002033;
+    }
 
     .regardify-logo {
       width: 175px;
@@ -21,7 +30,7 @@
     .content-container {
       position: relative;
       width: 1200px;
-      height: 349px;
+      height: 418px;
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -45,6 +54,7 @@
 
       .left-side-container {
         position: absolute;
+        top: 32px;
         left: 32px;
         width: 359px;
         height: 285px;
@@ -52,38 +62,30 @@
         flex-direction: column;
         justify-content: space-between;
 
-        .content-title {
-          margin-bottom: 16px;
-
-          font-family: "Inter Bold";
-          font-weight: 700;
-          font-size: 24px;
-          color: #002033;
-        }
-
         .content-p {
           font-family: "Inter Regular";
           font-weight: 400;
           font-size: 16px;
           color: #002033;
+          margin-top: 40px;
         }
 
         .span-container {
           display: flex;
           flex-wrap: wrap;
-          justify-content: space-between;
           width: 311px;
-          gap: 10px;
+          gap: 8px;
 
           span {
             padding: 4px 6px;
+            margin-top: 12px;
 
             font-family: "Inter SemiBold";
             font-weight: 600;
             font-size: 13px;
-            color: #002033;
+            color: #ffffff;
 
-            background-color: #ffffff;
+            background-color: #3069e1;
             border-radius: 100px;
           }
         }
@@ -124,8 +126,16 @@
         width: 743px;
         height: 294px;
 
+        border: 1px solid #d8dde5;
+        border-radius: 16px 0;
+
         .regardify-img {
           border-radius: 16px 0;
+          img {
+            width: 743px;
+            height: 294px;
+            object-fit: contain !important;
+          }
         }
       }
     }

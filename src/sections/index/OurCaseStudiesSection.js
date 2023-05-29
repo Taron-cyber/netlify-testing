@@ -10,11 +10,11 @@ const OurCaseStudiesSection = () => {
       outerClassName="our-case-studies-section"
       innerClassName="inner-container"
     >
-      <div className="title">Lorem case Lorisonii studies</div>
+      <div className="title">Lorem case studies</div>
       <div className="content-container green">
         <div className="left-side-container">
           <div>
-            <div className="content-title">
+            <div>
               <StaticImage
                 className="regardify-logo"
                 src="../../images/regardify-logo.png"
@@ -27,18 +27,13 @@ const OurCaseStudiesSection = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
+            <div className="span-container">
+              <span>Lumen</span>
+              <span>Yii</span>
+              <span>Go</span>
+            </div>
           </div>
-          {/* <div className="span-container">
-            <span>React</span>
-            <span>Angular</span>
-            <span>Electron</span>
-            <span>Typescript</span>
-            <span>Symfony</span>
-            <span>Laravel</span>
-            <span>Lumen</span>
-            <span>Yii</span>
-            <span>Go</span>
-          </div> */}
+
           <button className="see-case-study-btn">
             See case study
             <StaticImage
@@ -76,18 +71,13 @@ const OurCaseStudiesSection = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
+            <div className="span-container">
+              <span>UI/UX</span>
+              <span>Angular</span>
+              <span>Electron</span>
+            </div>
           </div>
-          {/* <div className="span-container">
-            <span>React</span>
-            <span>Angular</span>
-            <span>Electron</span>
-            <span>Typescript</span>
-            <span>Symfony</span>
-            <span>Laravel</span>
-            <span>Lumen</span>
-            <span>Yii</span>
-            <span>Go</span>
-          </div> */}
+
           <button className="see-case-study-btn">
             See case study
             <StaticImage
