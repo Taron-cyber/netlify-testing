@@ -14,7 +14,15 @@ const OurCaseStudiesSection = () => {
       <div className="content-container green">
         <div className="left-side-container">
           <div>
-            <div className="content-title">Regardify</div>
+            <div className="content-title">
+              <StaticImage
+                className="regardify-logo"
+                src="../../images/regardify-logo.png"
+                quality={80}
+                loading="lazy"
+                alt="regardify-logo"
+              />
+            </div>
             <p className="content-p">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -55,7 +63,15 @@ const OurCaseStudiesSection = () => {
       <div className="content-container yellow">
         <div className="left-side-container">
           <div>
-            <div className="content-title">Regardify</div>
+            <div className="content-title">
+              <StaticImage
+                className="regardify-logo"
+                src="../../images/regardify-logo.png"
+                quality={80}
+                loading="lazy"
+                alt="regardify-logo"
+              />
+            </div>
             <p className="content-p">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.

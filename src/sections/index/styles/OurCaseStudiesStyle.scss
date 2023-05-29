@@ -10,11 +10,12 @@
     flex-direction: column;
     gap: 40px;
 
-    .title {
-      font-family: "Inter Black";
-      font-weight: 900;
-      font-size: 48px;
-      color: #002033;
+    .regardify-logo {
+      width: 175px;
+      height: 46px;
+      img {
+        object-fit: contain !important;
+      }
     }
 
     .content-container {
@@ -24,11 +25,23 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
+      cursor: pointer;
 
       border: 1px solid #bbc7dc;
-      box-shadow: 0px 0px 0px 3px #edf0f4;
       border-radius: 16px;
       background-color: #ffffff;
+      box-shadow: 0px 0px 0px 3px #edf0f4;
+
+      &:hover {
+        border: 1px solid #3069e1;
+        box-shadow: 0px 0px 0px 3px #b3d8fa;
+        background-color: #f7f9fc;
+
+        .see-case-study-btn {
+          background-color: #202630;
+          color: #ffffff;
+        }
+      }
 
       .left-side-container {
         position: absolute;
@@ -123,7 +136,7 @@
       padding: 12px 16px;
       cursor: pointer;
 
-      background-color: #202630;
+      background-color: #fe804a;
       border-radius: 6px;
       border: none;
 

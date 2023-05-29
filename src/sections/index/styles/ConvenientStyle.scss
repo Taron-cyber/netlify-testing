@@ -48,7 +48,10 @@
       flex-direction: column;
       justify-content: space-around;
       padding: 20px 0 20px 20px;
-
+      background: url("../../../images/convenient-card-bg.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: right;
       border-radius: 16px;
 
       .card-title {
@@ -81,13 +84,13 @@
         padding: 12px 16px;
         cursor: pointer;
 
-        background-color: #202630;
+        background-color: #ffffff;
         transition: background-color 0.3s ease;
         border-radius: 6px;
         border: none;
 
         a {
-          color: #ffffff;
+          color: #002033;
           text-decoration: none;
           font-family: "Inter Bold";
           font-weight: 700;

@@ -61,14 +61,15 @@
       }
 
       .letsGetStarted-form-btn {
+        width: 320px;
         height: 48px;
         display: flex;
         align-items: center;
-        text-align: center;
+        justify-content: center;
         padding: 12px 16px;
         cursor: pointer;
 
-        background-color: #202630;
+        background-color: #fe804a;
         border-radius: 6px;
         border: none;
 
@@ -78,17 +79,10 @@
         color: #ffffff;
       }
 
-      .btn-checkbox-container {
-        width: 656px;
-        display: flex;
-        justify-content: space-between;
-      }
-
       .checkbox-container {
-        width: 300px;
+        width: 320px;
         height: 48px;
         display: flex;
-        justify-content: space-around;
         gap: 12px;
         padding: 0px 16px;
 
