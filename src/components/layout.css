@@ -99,7 +99,7 @@ hr {
   height: 1px;
 }
 * {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 *:before {
   box-sizing: inherit;

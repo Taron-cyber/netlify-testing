@@ -34,7 +34,7 @@ const OurCaseStudiesSection = () => {
             </div>
           </div>
 
-          <button className="see-case-study-btn">
+          <button className="see-case-study-btn one">
             See case study
             <StaticImage
               className="see-case-btn-img"
@@ -78,11 +78,11 @@ const OurCaseStudiesSection = () => {
             </div>
           </div>
 
-          <button className="see-case-study-btn">
+          <button className="see-case-study-btn two">
             See case study
             <StaticImage
               className="see-case-btn-img"
-              src="../../images/left-arrow.png"
+              src="../../images/left-arrow-black.png"
               quality={80}
               loading="lazy"
               alt="discovery-img"
