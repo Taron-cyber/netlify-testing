@@ -8,7 +8,7 @@ const DiscoverySection = () => {
   return (
     <Container
       outerClassName="discovery-section"
-      innerClassName="inner-contaner"
+      innerClassName="inner-container"
     >
       <div className="discovery-img-container">
         <StaticImage

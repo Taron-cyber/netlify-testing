@@ -1,0 +1,35 @@
+.about-page {
+  height: 780px;
+
+  background: url("../../images/about-page-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .inner-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+    .title {
+      width: 1072px;
+      text-align: center;
+
+      font-family: "Inter Black";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 48px;
+      color: #002033;
+    }
+
+    .desc {
+      width: 824px;
+      text-align: center;
+
+      font-family: "Inter Regular";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: #002033;
+    }
+  }
+}
