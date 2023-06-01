@@ -32,6 +32,21 @@
       .card {
         width: 231px;
       }
+
+      .card.four,
+      .card.five {
+        position: relative;
+        .our-history-icon {
+          width: 7px;
+          height: 7px;
+          position: absolute;
+          left: -4px;
+          top: 100%;
+          img {
+            object-fit: contain !important;
+          }
+        }
+      }
     }
     .card-container {
       width: 100%;
@@ -47,12 +62,24 @@
         width: 231px;
       }
       .card {
+        position: relative;
         height: 145px;
         padding-left: 12px;
         display: flex;
         flex-direction: column;
 
         border-left: 1px solid #202630;
+
+        .our-history-icon {
+          width: 7px;
+          height: 7px;
+          position: absolute;
+          left: -4px;
+          top: -7px;
+          img {
+            object-fit: contain !important;
+          }
+        }
 
         .time {
           font-family: "Inter Black";

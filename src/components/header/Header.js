@@ -21,13 +21,17 @@ const Header = () => {
       <nav className="menu">
         <ul className="menu-list">
           <li className="menu-item">
-            <Link to="/about">About Us</Link>
+            <Link to="/about" activeClassName="bottom-line">
+              About Us
+            </Link>
           </li>
           <li className="menu-item">
-            <Link to="/cases">Cases</Link>
+            <Link to="/cases" activeClassName="bottom-line">
+              Cases
+            </Link>
           </li>
           <li className="menu-item">
-            <Link to="/services">
+            <Link to="/services" activeClassName="bottom-line">
               Services
               <StaticImage
                 className="header-item-arrow"
@@ -39,7 +43,7 @@ const Header = () => {
             </Link>
           </li>
           <li className="menu-item">
-            <Link to="/solutions">
+            <Link to="/solutions" activeClassName="bottom-line">
               Solutions{" "}
               <StaticImage
                 className="header-item-arrow"
@@ -51,7 +55,9 @@ const Header = () => {
             </Link>
           </li>
           <li className="menu-item">
-            <Link to="/careers">Careers</Link>
+            <Link to="/careers" activeClassName="bottom-line">
+              Careers
+            </Link>
           </li>
           <li className="menu-item">
             <Link to="/contacts">Contacts</Link>

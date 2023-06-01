@@ -11,7 +11,7 @@ const OurCaseStudiesSection = () => {
       innerClassName="inner-container"
     >
       <div className="title">Lorem case studies</div>
-      <div className="content-container green">
+      <div className="content-container">
         <div className="left-side-container">
           <div>
             <div>
@@ -41,7 +41,7 @@ const OurCaseStudiesSection = () => {
               src="../../images/left-arrow.png"
               quality={80}
               loading="lazy"
-              alt="discovery-img"
+              alt="left-arrow"
             />
           </button>
         </div>
@@ -51,11 +51,11 @@ const OurCaseStudiesSection = () => {
             src="../../images/regardify-img.jpg"
             quality={80}
             loading="lazy"
-            alt="discovery-img"
+            alt="regardify-img"
           />
         </div>
       </div>
-      <div className="content-container yellow">
+      <div className="content-container">
         <div className="left-side-container">
           <div>
             <div className="content-title">

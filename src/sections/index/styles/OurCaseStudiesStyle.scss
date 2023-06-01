@@ -34,7 +34,6 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
-      cursor: pointer;
 
       border: 1px solid #bbc7dc;
       border-radius: 16px;
@@ -90,10 +89,10 @@
           }
         }
 
-        .see-case-study-btn.two {
-          background-color: #202630;
-          color: #ffffff;
-        }
+        // .see-case-study-btn.two {
+        //   background-color: #202630;
+        //   color: #ffffff;
+        // }
 
         .see-case-study-btn {
           width: 187px;

@@ -1,0 +1,117 @@
+.team-augmentation-section {
+  align-items: start;
+  margin: 100px 0;
+  height: auto;
+  .inner-container {
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+
+    border-width: thick;
+    border-top: 1px dotted #3069e1;
+    border-width: 5px;
+
+    .title {
+      margin-top: 100px;
+      text-align: center;
+
+      font-family: "Inter Black";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 48px;
+      color: #002033;
+    }
+
+    .desc {
+      width: 710px;
+      margin-top: 24px;
+      text-align: center;
+
+      font-family: "Inter Regular";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: #002033;
+    }
+
+    .cards-container {
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin-top: 40px;
+
+      .card {
+        width: 384px;
+        height: 310px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 32px 0 0 32px;
+
+        box-shadow: 0px 0px 0px 3px #edf0f4;
+        border: 1px solid #d8dde5;
+        border-radius: 16px;
+        background-color: #ffffff;
+
+        &:hover {
+          box-shadow: 0px 0px 0px 3px #b3d8fa;
+          border: 1px solid #b3d8fa;
+
+          .hire-btn {
+            background-color: #202630;
+            color: #ffffff;
+          }
+        }
+
+        .our-services-img {
+          width: 48px;
+          height: 48px;
+
+          img {
+            object-fit: contain !important;
+          }
+        }
+        .card-title {
+          font-family: "Inter Bold";
+          font-weight: 700;
+          font-size: 24px;
+          color: #002033;
+        }
+
+        .span-container {
+          width: 310px;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+          span {
+            padding: 4px 6px;
+
+            font-family: "Inter SemiBold";
+            font-weight: 600;
+            font-size: 13px;
+            color: #002033;
+
+            background-color: #d8dde5;
+            border-radius: 100px;
+          }
+        }
+
+        .hire-btn {
+          width: 320px;
+          height: 48px;
+          cursor: pointer;
+
+          font-family: "Inter Bold";
+          font-weight: 700;
+          font-size: 24px;
+          color: #002033;
+
+          border: 1px solid #bbc7dc;
+          border-radius: 6px;
+          background-color: #ffffff;
+        }
+      }
+    }
+  }
+}
