@@ -41,6 +41,12 @@
       }
     }
 
+    .card.one {
+      background: url("../../../images/convenient-card-blue-bg.png") #3069e1;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: right;
+    }
     .card {
       width: 580px;
       height: 315px;
@@ -49,7 +55,7 @@
       justify-content: space-around;
       padding: 20px 0 20px 20px;
 
-      background: url("../../../images/convenient-card-bg.png");
+      background: url("../../../images/convenient-card-bg.png") #202630;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: right;

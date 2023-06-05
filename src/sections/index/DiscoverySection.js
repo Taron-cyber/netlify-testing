@@ -1,8 +1,8 @@
 import React from "react"
 import Container from "../../components/container/Container"
+import { StaticImage } from "gatsby-plugin-image"
 
 import "./styles/DiscoveryStyle.scss"
-import { StaticImage } from "gatsby-plugin-image"
 
 const DiscoverySection = () => {
   return (

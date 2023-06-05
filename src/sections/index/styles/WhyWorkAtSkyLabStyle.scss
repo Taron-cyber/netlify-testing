@@ -1,0 +1,23 @@
+.why-work-at-skyLab-section {
+  align-items: center;
+  justify-content: center;
+
+  background: url("../../../images/why-work-at-skylab-bg.png") #202630;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center 50px;
+
+  .inner-container {
+    height: 640px;
+    align-items: center;
+    justify-content: center;
+
+    .title {
+      font-family: "Inter Black";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 48px;
+      color: #ffffff;
+    }
+  }
+}
